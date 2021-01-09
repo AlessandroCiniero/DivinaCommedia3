@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 6222481f6b9ef124582dfa70c4ca3111
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 113447248509407106
+    second: ikHandle1|Take 001_cntrl_head
+  - first:
+      74: 8058341777441146927
+    second: ikHandle1|Take 001_cntrl_L_ankle
+  - first:
+      74: 8390074437663718996
+    second: ikHandle1|Take 001_cntrl_neck_01
+  - first:
+      74: -2562152343836628247
+    second: ikHandle1|Take 001_cntrl_neck_02
+  - first:
+      74: -3907894612046767497
+    second: ikHandle1|Take 001_cntrl_R_ankle
+  - first:
+      74: -7624323010543455026
+    second: ikHandle1|Take 001_ikHandle1
+  - first:
+      74: -8307422074644602597
+    second: ikHandle1|Take 001_ikHandle2
+  - first:
+      74: -5707503870432910328
+    second: ikHandle2|Take 001_cntrl_head
+  - first:
+      74: -421561033038506603
+    second: ikHandle2|Take 001_cntrl_L_ankle
+  - first:
+      74: -5456440330039172961
+    second: ikHandle2|Take 001_cntrl_neck_01
+  - first:
+      74: 2758211778126276603
+    second: ikHandle2|Take 001_cntrl_neck_02
+  - first:
+      74: 42125564802130357
+    second: ikHandle2|Take 001_cntrl_R_ankle
+  - first:
+      74: -2761167951516237161
+    second: ikHandle2|Take 001_ikHandle1
+  - first:
+      74: 7530644370380099903
+    second: ikHandle2|Take 001_ikHandle2
+  - first:
+      74: -6795716944082204326
+    second: cntrl_R_ankle|Take 001_cntrl_head
+  - first:
+      74: -2870760946177490048
+    second: cntrl_R_ankle|Take 001_cntrl_L_ankle
+  - first:
+      74: 7332471126498396224
+    second: cntrl_R_ankle|Take 001_cntrl_neck_01
+  - first:
+      74: 1334359724360558959
+    second: cntrl_R_ankle|Take 001_cntrl_neck_02
+  - first:
+      74: -2547504693915244288
+    second: cntrl_R_ankle|Take 001_cntrl_R_ankle
+  - first:
+      74: 9080303077059634069
+    second: cntrl_R_ankle|Take 001_ikHandle1
+  - first:
+      74: -800179066260012259
+    second: cntrl_R_ankle|Take 001_ikHandle2
+  - first:
+      74: 5495668447131253560
+    second: cntrl_L_ankle|Take 001_cntrl_head
+  - first:
+      74: -121096859438643330
+    second: cntrl_L_ankle|Take 001_cntrl_L_ankle
+  - first:
+      74: -723739815869634454
+    second: cntrl_L_ankle|Take 001_cntrl_neck_01
+  - first:
+      74: 8323171372311493769
+    second: cntrl_L_ankle|Take 001_cntrl_neck_02
+  - first:
+      74: -597367470369769722
+    second: cntrl_L_ankle|Take 001_cntrl_R_ankle
+  - first:
+      74: 8960159505544702639
+    second: cntrl_L_ankle|Take 001_ikHandle1
+  - first:
+      74: -5032959398539534672
+    second: cntrl_L_ankle|Take 001_ikHandle2
+  - first:
+      74: -7972219657802903358
+    second: cntrl_neck_02|Take 001_cntrl_head
+  - first:
+      74: -8922529549316945338
+    second: cntrl_neck_02|Take 001_cntrl_L_ankle
+  - first:
+      74: 4682634239149757119
+    second: cntrl_neck_02|Take 001_cntrl_neck_01
+  - first:
+      74: 2256230964508870299
+    second: cntrl_neck_02|Take 001_cntrl_neck_02
+  - first:
+      74: 7216660786365180260
+    second: cntrl_neck_02|Take 001_cntrl_R_ankle
+  - first:
+      74: 5318581520250917010
+    second: cntrl_neck_02|Take 001_ikHandle1
+  - first:
+      74: 1309882665991818207
+    second: cntrl_neck_02|Take 001_ikHandle2
+  - first:
+      74: -1200444605556657812
+    second: cntrl_neck_01|Take 001_cntrl_head
+  - first:
+      74: 7135099261762802894
+    second: cntrl_neck_01|Take 001_cntrl_L_ankle
+  - first:
+      74: -2170123115410222489
+    second: cntrl_neck_01|Take 001_cntrl_neck_01
+  - first:
+      74: -67860463408315824
+    second: cntrl_neck_01|Take 001_cntrl_neck_02
+  - first:
+      74: -6744352485395843544
+    second: cntrl_neck_01|Take 001_cntrl_R_ankle
+  - first:
+      74: -4340860653468376728
+    second: cntrl_neck_01|Take 001_ikHandle1
+  - first:
+      74: -8260014352419654025
+    second: cntrl_neck_01|Take 001_ikHandle2
+  - first:
+      74: 2869377359408698627
+    second: cntrl_head|Take 001_cntrl_head
+  - first:
+      74: -8712694995120763075
+    second: cntrl_head|Take 001_cntrl_L_ankle
+  - first:
+      74: 6015472826095400324
+    second: cntrl_head|Take 001_cntrl_neck_01
+  - first:
+      74: -2194334520212181477
+    second: cntrl_head|Take 001_cntrl_neck_02
+  - first:
+      74: -1585191693179186381
+    second: cntrl_head|Take 001_cntrl_R_ankle
+  - first:
+      74: 4573506146138490527
+    second: cntrl_head|Take 001_ikHandle1
+  - first:
+      74: 3005960079162767124
+    second: cntrl_head|Take 001_ikHandle2
+  - first:
+      74: -381140297663190672
+    second: Armature_0|Take 001_Armature_0
+  - first:
+      74: -8329522747168673140
+    second: Armature_0|Take 001_cntrl_head
+  - first:
+      74: -8602226228529111203
+    second: Armature_0|Take 001_cntrl_L_ankle
+  - first:
+      74: -1244352148267947555
+    second: Armature_0|Take 001_cntrl_neck_01
+  - first:
+      74: 5463529520237073539
+    second: Armature_0|Take 001_cntrl_neck_02
+  - first:
+      74: -7120872243500303823
+    second: Armature_0|Take 001_cntrl_R_ankle
+  - first:
+      74: -1416756862332541889
+    second: Armature_0|Take 001_ikHandle1
+  - first:
+      74: -5425646227556622897
+    second: Armature_0|Take 001_ikHandle2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AmericanCrow_v4texturedAmCrowTexture
+    second: {fileID: 2100000, guid: cb3c5ca6d115b0543a52c9b58975d0b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AmericanCrow_v4texturedFeather
+    second: {fileID: 2100000, guid: 5fdf4486ae91f654ea0f679169b0c264, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
