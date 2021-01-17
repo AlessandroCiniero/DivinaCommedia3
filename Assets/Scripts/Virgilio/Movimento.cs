@@ -21,7 +21,6 @@ public class Movimento : MonoBehaviour
 
     private GuardState _currentGuardState;
     private NavMeshAgent _navMeshAgent;
-    private int _currentWayPointIndex = 0;
     private Animator _animator;
 
 
