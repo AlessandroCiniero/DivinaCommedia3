@@ -401,10 +401,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waypoints: []
-  _target: {fileID: 1775973267}
+  _target: {fileID: 1731730192}
   _minChaseDistance: 0
-  _minAttackDistance: 3
-  _stoppingDistance: 3
+  _minAttackDistance: 30
+  _stoppingDistance: 30
 --- !u!1 &685264085
 GameObject:
   m_ObjectHideFlags: 0
