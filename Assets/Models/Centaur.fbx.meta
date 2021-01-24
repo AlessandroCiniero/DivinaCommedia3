@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 8ab322b4f6028451484625903c08afd2
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -8143221653217381735
+    second: Centaur_M_Galloping_Cycle_Afraid
+  - first:
+      74: 6121895296435977923
+    second: Default
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: ea508822c0b124e3f90ab21cdb9b9ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Cavity
+    second: {fileID: 2100000, guid: c97699399284e48df91573fb89746abe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_DownTeeth
+    second: {fileID: 2100000, guid: e6ed7976d15ab4aea8110c822d5ac82e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Eyewinker
+    second: {fileID: 2100000, guid: 7e74fc96b636943e6884d66f1a766ee7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Iris
+    second: {fileID: 2100000, guid: 271991a32c34e4bad9fe047668a17864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Iris_M_0000
+    second: {fileID: 2100000, guid: 6f68d225c8df241e6a6b0b44a1fb2230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Lens
+    second: {fileID: 2100000, guid: 4321e4b9d586d4f03930b9c2119cc7f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Lens_M_0000
+    second: {fileID: 2100000, guid: a62c0c1dc76d0456fb562e906bdc2f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_Tongue
+    second: {fileID: 2100000, guid: 610a3edc8467447629f6040271e3274b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Part_UpperTeeth
+    second: {fileID: 2100000, guid: 6aa2bb60e88c84e79b322721f63e2fc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RL_Skin
+    second: {fileID: 2100000, guid: ae42f8240332c460d8eadb6f6065fd62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tail
+    second: {fileID: 2100000, guid: 5efbed7857f6948c2a9d72e2a9afbb20, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Cavity_Diffuse
+    second: {fileID: 2800000, guid: d461a438d633140af8d101b3d0f7273f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_DownTeeth_Diffuse
+    second: {fileID: 2800000, guid: 5eaf10cd85a5f4dfb9dc4d7c0eb98614, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_DownTeeth_Normal
+    second: {fileID: 2800000, guid: 5fa2b27b0245040b486b34c4da10568a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Eyewinker_Diffuse
+    second: {fileID: 2800000, guid: b3add1c2c4a4449b08bc2d042e49b75b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Iris_Diffuse
+    second: {fileID: 2800000, guid: b3c52eac47b8144ec990b6710e8c845b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Iris_M_0000_Diffuse
+    second: {fileID: 2800000, guid: d1b74974f9cdf4d7faa5e41bcd99c9f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Iris_M_0000_Specular
+    second: {fileID: 2800000, guid: bad359217988d463ea5147b83be0cf11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Iris_Specular
+    second: {fileID: 2800000, guid: 662aa0f21da4f4686935dd3d956fa36c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Lens_Diffuse
+    second: {fileID: 2800000, guid: 7f8a5686f13d14e9a9cb51ecadb83356, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Lens_Specular
+    second: {fileID: 2800000, guid: 2fae4cf13646245b9addd3d909e64d86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_Tongue_Diffuse
+    second: {fileID: 2800000, guid: fe772850f9c544b5db8a887273795809, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_UpperTeeth_Diffuse
+    second: {fileID: 2800000, guid: 1171760b3c21c43b992b984cf7551d64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Part_UpperTeeth_Normal
+    second: {fileID: 2800000, guid: 1b29fdd0bb10d4420b7e8ed7b5785266, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RL_Skin_Bump
+    second: {fileID: 2800000, guid: fe7dcaf9f7b6341709072e6d7174f264, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RL_Skin_Diffuse
+    second: {fileID: 2800000, guid: a209647c3829348c79781322a3513460, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RL_Skin_Specular
+    second: {fileID: 2800000, guid: d7356bca25b4e4c7883c56e31cb8ba0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tail_Diffuse
+    second: {fileID: 2800000, guid: 77cc01899726f47feb4af4b9a2d0b213, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tail_Normal
+    second: {fileID: 2800000, guid: 1eef5907aaaa945e48db6f8c450a972f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tail_Opacity
+    second: {fileID: 2800000, guid: 2e9750fe0c9554563bcc68ec5debba6d, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
