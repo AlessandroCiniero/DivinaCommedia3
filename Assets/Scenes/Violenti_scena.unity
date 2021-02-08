@@ -62458,7 +62458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DanteController: {fileID: 1731730193}
-  speed: 12
+  speed: 30
   gravity: -9.81
   GroundCheck: {fileID: 685264086}
   GroundDistance: 0.4
@@ -71704,7 +71704,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8ab322b4f6028451484625903c08afd2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 505.86
+      value: 916.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ab322b4f6028451484625903c08afd2,
         type: 3}
@@ -71714,7 +71714,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8ab322b4f6028451484625903c08afd2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 96.976
+      value: 103.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8ab322b4f6028451484625903c08afd2,
         type: 3}
@@ -71750,6 +71750,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6877384242265683107, guid: 8ab322b4f6028451484625903c08afd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -6877384242265683107, guid: 8ab322b4f6028451484625903c08afd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8ab322b4f6028451484625903c08afd2,
         type: 3}
