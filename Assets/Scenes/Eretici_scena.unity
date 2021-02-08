@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2287,12 +2287,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
     type: 3}
   m_PrefabInstance: {fileID: 114720594}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &653354564 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1280971407}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &692043131
 PrefabInstance:
@@ -4512,75 +4506,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ac8766d3ad4414aaf6ccf5c2640814, type: 3}
---- !u!1001 &1280971407
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2016431847}
-    m_Modifications:
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -582.7892
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -89.34526
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 87.66669
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7361445
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.67682445
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -85.192
-      objectReference: {fileID: 0}
-    - target: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3148052246872162831, guid: 471cec0a344141d418319e99d9534cd1,
-        type: 3}
-      propertyPath: m_Name
-      value: Anima@Writhing In Pain
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 471cec0a344141d418319e99d9534cd1, type: 3}
 --- !u!1001 &1281727331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7299,7 +7224,6 @@ Transform:
   - {fileID: 607043318}
   - {fileID: 543450652381061991}
   - {fileID: 1660829629}
-  - {fileID: 653354564}
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

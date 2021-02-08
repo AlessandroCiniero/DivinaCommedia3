@@ -12,6 +12,9 @@ public class cutscene : MonoBehaviour
     public GameObject _demone;
     public GameObject _cancello;
 
+    public GameObject _luce;
+
+
     private bool primaVoltaVirgilio;
     private bool primaVoltaDemone;
 
@@ -34,9 +37,16 @@ public class cutscene : MonoBehaviour
         }
 
         //VIRGILIO
-        if (asd > 33) {
+        if (asd > 33)
+        {
             _animatorVirgilio.SetBool("virgilioCammina", false);
         }
+
+        else if (asd > 28)
+        {
+            _luce.transform.Translate(0, -0.13f, 0);
+        }
+
         else if (asd > 26)
         {
             if (primaVoltaVirgilio)
@@ -52,7 +62,8 @@ public class cutscene : MonoBehaviour
             _animatorVirgilio.SetBool("virgilioCammina", false);
             //virgilio.transform.Rotate(0, 180, 0);
         }
-        else if (asd > 11) {
+        else if (asd > 11)
+        {
             _animatorVirgilio.SetBool("virgilioCammina", true);
         }
         else _animatorVirgilio.SetBool("virgilioCammina", false);
