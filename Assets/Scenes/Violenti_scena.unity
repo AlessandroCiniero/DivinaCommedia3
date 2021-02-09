@@ -21126,12 +21126,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1841573565}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &611674671 stripped
+--- !u!1 &611674671
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ab322b4f6028451484625903c08afd2,
     type: 3}
   m_PrefabInstance: {fileID: 2036155771}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611674673}
+  - component: {fileID: 611674672}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!95 &611674672
 Animator:
   serializedVersion: 3
@@ -21151,6 +21163,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!4 &611674673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2036155771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611674671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1617251700}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &612234525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8335111367753795882, guid: f0617dd888b9d7e46b55b50465d317fa,
@@ -58020,7 +58046,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1611435578
 PrefabInstance:
@@ -58259,6 +58285,37 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1387542041}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1617251699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2036155771}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1617251700}
+  m_Layer: 0
+  m_Name: Centaur (Missing Prefab)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1617251700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 2036155771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617251699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 611674673}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1617911852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8335111367753795882, guid: f0617dd888b9d7e46b55b50465d317fa,
