@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.006
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d4f0e54f9dd804a178bff9cfaf5a177a, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -27448,18 +27448,18 @@ Transform:
   - {fileID: 728479042}
   - {fileID: 194246877}
   - {fileID: 1859960034}
+  - {fileID: 511535100}
+  - {fileID: 318721469}
   - {fileID: 1130924455}
   - {fileID: 2110791823}
   - {fileID: 1436396447}
-  - {fileID: 511535100}
-  - {fileID: 318721469}
+  - {fileID: 1915041290}
   - {fileID: 578297977}
   - {fileID: 1150478004}
   - {fileID: 424640144}
   - {fileID: 263990277}
   - {fileID: 1244642447}
   - {fileID: 678612813}
-  - {fileID: 1915041290}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28052,12 +28052,12 @@ Transform:
   - {fileID: 1016133948}
   - {fileID: 907355652}
   - {fileID: 2133636316}
-  - {fileID: 737646043}
   - {fileID: 26144766}
   - {fileID: 294849115}
   - {fileID: 673076145}
-  - {fileID: 556505417}
+  - {fileID: 737646043}
   - {fileID: 910500521}
+  - {fileID: 556505417}
   - {fileID: 1613812039}
   - {fileID: 1375993174}
   m_Father: {fileID: 0}
@@ -34369,8 +34369,8 @@ Transform:
   m_LocalPosition: {x: -30.5, y: 1.3, z: 473.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2063598882}
   - {fileID: 1630631028}
+  - {fileID: 2063598882}
   - {fileID: 1483052824}
   - {fileID: 1496993295}
   - {fileID: 1407964711}
