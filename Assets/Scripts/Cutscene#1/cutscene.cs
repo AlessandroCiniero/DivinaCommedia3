@@ -10,6 +10,8 @@ public class cutscene : MonoBehaviour
 
     public GameObject _virgilio;
     public GameObject _demone;
+    public GameObject _testo;
+
     public GameObject _cancello;
 
     public GameObject _luce;
@@ -69,6 +71,9 @@ public class cutscene : MonoBehaviour
         else _animatorVirgilio.SetBool("virgilioCammina", false);
 
 
+        //TESTO
+        
+
         //DEMONE
         if (asd > 31)
         {
@@ -93,6 +98,12 @@ public class cutscene : MonoBehaviour
         else if (asd > 14)
         {
             _animatorDemone.SetBool("demoneCammina", true);
+        }
+
+        //TESTO
+        if (asd > 11)
+        {
+            _testo.transform.Translate(0, 0.04f, 0);
         }
 
     }
