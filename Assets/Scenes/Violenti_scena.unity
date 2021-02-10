@@ -3245,6 +3245,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c92c8034e6b3a14b9a7d0c16f802de9, type: 3}
+--- !u!1 &73089688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73089690}
+  - component: {fileID: 73089689}
+  m_Layer: 8
+  m_Name: muroInvisibile1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &73089689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73089688}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
+  m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
+--- !u!4 &73089690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73089688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -43.52466, y: -12.603554, z: 998.4551}
+  m_LocalScale: {x: 25, y: 13.165109, z: 1871.2804}
+  m_Children: []
+  m_Father: {fileID: 1717999234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &73372182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16170,6 +16214,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0617dd888b9d7e46b55b50465d317fa, type: 3}
+--- !u!1 &456124455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456124456}
+  - component: {fileID: 456124457}
+  m_Layer: 8
+  m_Name: muroInvisibile1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456124456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456124455}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -44.824646, y: -12.603554, z: -66}
+  m_LocalScale: {x: 25, y: 13.165109, z: 176.90239}
+  m_Children: []
+  m_Father: {fileID: 1717999234}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &456124457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456124455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
+  m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
 --- !u!1001 &459349582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17862,6 +17950,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1364275062}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &521666471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 521666472}
+  - component: {fileID: 521666473}
+  m_Layer: 8
+  m_Name: muroInvisibile1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &521666472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521666471}
+  m_LocalRotation: {x: -0, y: 0.63224584, z: -0, w: 0.77476794}
+  m_LocalPosition: {x: 94.07532, y: -12.603554, z: 100.0551}
+  m_LocalScale: {x: 25, y: 13.165109, z: 277.96503}
+  m_Children: []
+  m_Father: {fileID: 1717999234}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 78.43201, z: 0}
+--- !u!65 &521666473
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521666471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
+  m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
 --- !u!4 &521764848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8335111367753795882, guid: f0617dd888b9d7e46b55b50465d317fa,
@@ -62274,6 +62406,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 837103730}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1717999233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1717999234}
+  m_Layer: 0
+  m_Name: MURIINVISIBILI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1717999234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717999233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 658.52466, y: 83.60355, z: 180.5449}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 73089690}
+  - {fileID: 456124456}
+  - {fileID: 1876412053}
+  - {fileID: 521666472}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1718833931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4239204682669090655, guid: 9c92c8034e6b3a14b9a7d0c16f802de9,
@@ -66772,6 +66938,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0617dd888b9d7e46b55b50465d317fa, type: 3}
+--- !u!1 &1876412052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876412053}
+  - component: {fileID: 1876412054}
+  m_Layer: 8
+  m_Name: muroInvisibile1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1876412053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876412052}
+  m_LocalRotation: {x: -0, y: 0.63224584, z: -0, w: 0.77476794}
+  m_LocalPosition: {x: 81.37537, y: -12.603554, z: 57.255096}
+  m_LocalScale: {x: 25, y: 13.165109, z: 245.2272}
+  m_Children: []
+  m_Father: {fileID: 1717999234}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 78.43201, z: 0}
+--- !u!65 &1876412054
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876412052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
+  m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
 --- !u!4 &1876744490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7098762645056390055, guid: 90f8fe942132895488e97b6cc7adefdd,
