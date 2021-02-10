@@ -10,6 +10,8 @@ public class cutscene : MonoBehaviour
 
     public GameObject _virgilio;
     public GameObject _demone;
+    public GameObject _spot;
+
     public GameObject _testo;
 
     public GameObject _cancello;
@@ -46,7 +48,7 @@ public class cutscene : MonoBehaviour
 
         else if (asd > 28)
         {
-            _luce.transform.Translate(0, -0.13f, 0);
+            _luce.transform.Translate(0, 0.1f, 0.1f);
         }
 
         else if (asd > 26)
@@ -101,10 +103,16 @@ public class cutscene : MonoBehaviour
         }
 
         //TESTO
-        if (asd > 11)
+        if (asd > 9)
         {
-            _testo.transform.Translate(0, 0.04f, 0);
+            _testo.transform.Translate(0, 0.02f, 0);
         }
+
+        //ANGELO
+        //if (asd > 28) {
+
+          //  _spot.transform.Translate(0, 0, 0.1f);
+        //}
 
     }
 }

@@ -2005,7 +2005,7 @@ PrefabInstance:
     - target: {fileID: 3864182104314556955, guid: 91d0afefc9120234c936a9867c450843,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 578.2
+      value: 580
       objectReference: {fileID: 0}
     - target: {fileID: 3864182104314556955, guid: 91d0afefc9120234c936a9867c450843,
         type: 3}
@@ -2371,7 +2371,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 6cdb875c621b8e74ea0bc7819a2c55d5, type: 2}
     - target: {fileID: 7191342408017256600, guid: 91d0afefc9120234c936a9867c450843,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2753,8 +2753,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "E quel segnor che l\xEC m\u2019avea menato,\r\nmi disse: \"Non temer;
     ch\xE9 \u2019l nostro passo\r\nnon ci pu\xF2 t\xF2rre alcun: da tal n\u2019\xE8
-    dato.\r\n\r\n\r\n\"O cacciati del ciel, gente dispetta\",\r\ncominci\xF2 elli
-    in su l\u2019orribil soglia,\r\n\"ond\u2019esta oltracotanza in voi s\u2019alletta?"
+    dato.\r\n\r\n\n\n\n\n\n\n\n\n\n\"O cacciati del ciel, gente dispetta\",\r\ncominci\xF2
+    elli in su l\u2019orribil soglia,\r\n\"ond\u2019esta oltracotanza in voi s\u2019alletta?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2776,7 +2776,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 93368250
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -2880,16 +2880,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125269042}
-  m_LocalRotation: {x: 0.037416115, y: -0.00066728046, z: 0.017818712, w: 0.9991407}
-  m_LocalPosition: {x: 0, y: 0, z: 421.61}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 421.28}
   m_LocalScale: {x: 0.17513776, y: 0.17513776, z: 0.17513776}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 4.289, y: 0, z: 2.043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 599.65, y: -4.4}
+  m_AnchoredPosition: {x: 599.81, y: -9}
   m_SizeDelta: {x: 126.53041, y: 70.155655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1181944866
@@ -3252,6 +3252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524035163}
   - component: {fileID: 1524035162}
+  - component: {fileID: 1524035164}
   m_Layer: 0
   m_Name: sceneController
   m_TagString: Untagged
@@ -3275,6 +3276,7 @@ MonoBehaviour:
   _animatorDemone: {fileID: 863137451}
   _virgilio: {fileID: 1522483972}
   _demone: {fileID: 863137450}
+  _spot: {fileID: 1808771312}
   _testo: {fileID: 1125269042}
   _cancello: {fileID: 334716273}
   _luce: {fileID: 1808771312}
@@ -3292,6 +3294,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1524035164
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524035161}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 803f38e34276dea4196274b348677dcd, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.68
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 499.83
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1541163470
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,7 +3416,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541163470}
-  m_LocalRotation: {x: -0.010177172, y: -0.040515944, z: -0.0005443664, w: 0.999127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 162.6, y: 167.5, z: -66.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5799,7 +5897,7 @@ GameObject:
   - component: {fileID: 1808771314}
   - component: {fileID: 1808771313}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: spot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5817,9 +5915,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.96533066, g: 1, b: 0.1462264, a: 1}
-  m_Intensity: 1102.3
-  m_Range: 36.3
-  m_SpotAngle: 54.121105
+  m_Intensity: 1121.51
+  m_Range: 51.7
+  m_SpotAngle: 179
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -5874,7 +5972,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808771312}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 586.55, y: 37.43, z: 471.1}
+  m_LocalPosition: {x: 590.7, y: 45.7, z: 476.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
