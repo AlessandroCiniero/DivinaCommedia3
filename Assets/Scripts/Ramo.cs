@@ -14,10 +14,13 @@ public class Ramo : Interactable
     public GameObject ContinueText;
     public GameObject DanteController;
 
+    private Rigidbody _rb;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        _rb = GetComponent<Rigidbody>();
+        _rb.isKinematic = true; // Activated
     }
 
     // Update is called once per frame
@@ -42,6 +45,7 @@ public class Ramo : Interactable
             PlayerMovement.active = false;
 
             //Break Ramo
+            _rb.isKinematic = false;  // Deactivated
 
             //Snap Sound
 

@@ -7,9 +7,12 @@ public class immaginiPergamene : MonoBehaviour
 {
     private Image _image; 
 
-    public Sprite sprite1;
-    public Sprite sprite2;
-    public int asd;
+    public Sprite vuoto;
+    public Sprite parziale1;
+    public Sprite parziale2;
+    public Sprite pieno;
+
+    private int state;
 
     void Start()
     {
@@ -19,9 +22,14 @@ public class immaginiPergamene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (asd == 0)
-            _image.sprite = sprite1;
-        else 
-            _image.sprite = sprite2;
+        state = VirgilioSuicidi.state;
+        if (state == 0)
+            _image.sprite = vuoto;
+        else if (state == 2)
+            _image.sprite = parziale1;
+        else if (state == 1)
+            _image.sprite = parziale2;
+        else if (state == 3)
+            _image.sprite = pieno;
     }
 }
