@@ -43,7 +43,7 @@ public class Ramo : Interactable
 
             //Break Ramo
 
-
+            //Snap Sound
 
 
 
@@ -59,7 +59,7 @@ public class Ramo : Interactable
 
             //Left Click to Continue
 
-            StartCoroutine(WaitForLeftClick());
+            StartCoroutine(Dialogue1());
 
 
 
@@ -68,18 +68,68 @@ public class Ramo : Interactable
 
     }
 
-    IEnumerator ResetChat()
+    IEnumerator Dialogue1()
     {
-        yield return new WaitForSeconds(5f);
-        DialogueName.GetComponent<Text>().text = "";
-        DialogueText.GetComponent<Text>().text = "";
+        yield return new WaitForSeconds(1f);
+        while (true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                DialogueText.GetComponent<Text>().text = "Perché mi laceri? Non hai alcuno spirito di pietà? Fummo uomini, e adesso siamo diventati cespugli: la tua mano sarebbe certamente più pietosa, se anche fossimo state anime di serpenti";
+                StartCoroutine(Dialogue2());
+                yield break;
+            }
 
-        InteractionManager.active = true;
-        MouseLook.active = true;
-        PlayerMovement.active = true;
+            yield return null;
+        }
+    }
 
-        //Reset animation and movement
+    IEnumerator Dialogue2()
+    {
+        yield return new WaitForSeconds(1f);
+        while (true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                DialogueText.GetComponent<Text>().text = "Con le tue dolci parole mi alletti in tal modo che non posso stare zitto e a voi non sia fastidioso se io mi attardo un po' a parlare di me. Io sono colui che tenne entrambe le chiavi del cuore di Federico II, e che le usò così bene nel chiudere e nell'aprire.";
+                StartCoroutine(Dialogue3());
+                yield break;
+            }
 
+            yield return null;
+        }
+    }
+
+    IEnumerator Dialogue3()
+    {
+        yield return new WaitForSeconds(1f);
+        while (true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                DialogueText.GetComponent<Text>().text = "Il mio animo, spinto da un amaro piacere, credendo di sfuggire il disonore con la morte, mi rese ingiusto contro me stesso, che pure non avevo colpe. Come le altre anime, anche noi andremo a riprendere i nostri corpi(il giorno del Giudizio), ma non per rivestircene: infatti non è giusto riavere ciò che ci si è tolti.";
+                StartCoroutine(Dialogue4());
+                yield break;
+            }
+
+            yield return null;
+        }
+    }
+
+    IEnumerator Dialogue4()
+    {
+        yield return new WaitForSeconds(1f);
+        while (true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                DialogueText.GetComponent<Text>().text = "Li trascineremo qui e i nostri corpi saranno appesi per la triste selva, ciascuno all'albero della propria ombra nemica.";
+                StartCoroutine(WaitForLeftClick());
+                yield break;
+            }
+
+            yield return null;
+        }
     }
 
     IEnumerator WaitForLeftClick()
@@ -103,4 +153,6 @@ public class Ramo : Interactable
             yield return null;
         }
     }
+
+
 }

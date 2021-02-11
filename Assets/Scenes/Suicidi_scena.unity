@@ -5841,8 +5841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -4.2201e-10, y: 107}
-  m_SizeDelta: {x: 520.07495, y: 126.42929}
+  m_AnchoredPosition: {x: -4.2201e-10, y: 68.059}
+  m_SizeDelta: {x: 520.07495, y: 86.05885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313895973
 MonoBehaviour:
@@ -5876,7 +5876,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: hvdakhjvdhjvasj
+  m_Text: 
 --- !u!222 &313895974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6697,10 +6697,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -6708,7 +6708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ',nbfsdbf'
+  m_Text: 
 --- !u!222 &375172953
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6733,8 +6733,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -192.12, y: 22.467}
-  m_SizeDelta: {x: 147.31363, y: 42.63675}
+  m_AnchoredPosition: {x: -181.90002, y: 13.099976}
+  m_SizeDelta: {x: 126.79294, y: 23.85997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &377230118 stripped
 GameObject:
@@ -9969,6 +9969,22 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1122598516}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &532424979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532424978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ffa71bafd0d74b83b431f9dae96c453, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueName: {fileID: 1517245260}
+  DialogueText: {fileID: 313895971}
+  ContinueText: {fileID: 375172951}
+  DanteController: {fileID: 2009218441}
 --- !u!136 &532424982
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -35684,7 +35700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -143.9, y: 190.7}
+  m_AnchoredPosition: {x: -143.88, y: 125.57}
   m_SizeDelta: {x: 232.31744, y: 28.955673}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1517245262
@@ -35719,7 +35735,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: akuf
+  m_Text: 
 --- !u!222 &1517245263
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42750,7 +42766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 81110008}
   debugRay: 1
-  interactionDistance: 30
+  interactionDistance: 40
   target: {fileID: 921437687}
 --- !u!1001 &2009261013
 PrefabInstance:
