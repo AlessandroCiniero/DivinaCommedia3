@@ -7,12 +7,13 @@ public class InteractionManager : MonoBehaviour
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private bool debugRay;
     [SerializeField] private float interactionDistance;
-
     [SerializeField] private Image target;
+    public static bool active = true;
 
     private Interactable pointingInteractable;
     private CharacterController DanteController;
     private Vector3 rayOrigin;
+    public static float distance;
 
 
     void Start()
@@ -22,13 +23,23 @@ public class InteractionManager : MonoBehaviour
 
     void Update()
     {
-        rayOrigin = cameraTransform.position + DanteController.radius * cameraTransform.forward;
 
-        CheckInteraction();
-        UpdateUITarget();
+        if (active)
+        {
+            rayOrigin = cameraTransform.position + DanteController.radius * cameraTransform.forward;
+            CheckInteraction();
+            UpdateUITarget();
 
-        if (debugRay)
-            DebugRaycast();
+            if (debugRay)
+                DebugRaycast();
+        }
+
+
+        if (!active)
+        {
+            target.color = Color.white;
+        }
+
     }
 
     private void CheckInteraction()
@@ -38,6 +49,10 @@ public class InteractionManager : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, interactionDistance))
         {
+            //Store distance
+            distance = hit.distance;
+
+
             //Check if is interactable
             pointingInteractable = hit.transform.GetComponent<Interactable>();
             if (pointingInteractable != null)
@@ -68,4 +83,6 @@ public class InteractionManager : MonoBehaviour
     {
         Debug.DrawRay(rayOrigin, cameraTransform.forward * interactionDistance, Color.white);
     }
+
+
 }

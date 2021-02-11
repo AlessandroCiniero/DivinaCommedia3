@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 velocity;
     private bool isGrounded;
+    public static bool active = true;
 
     // Start is called before the first frame update
     void Start()
@@ -25,21 +26,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);
-
-        if (isGrounded && velocity.y < 0)
+        if (active)
         {
-            velocity.y = -2f;
+            isGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask);
+
+            if (isGrounded && velocity.y < 0)
+            {
+                velocity.y = -2f;
+            }
+            float x = Input.GetAxis("Horizontal");
+            float z = Input.GetAxis("Vertical");
+
+            Vector3 move = transform.right * x + transform.forward * z;
+
+            DanteController.Move(move * speed * Time.deltaTime);
+
+            velocity.y += gravity * Time.deltaTime;
+
+            DanteController.Move(velocity * Time.deltaTime);
         }
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
 
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        DanteController.Move(move * speed * Time.deltaTime);
-
-        velocity.y += gravity * Time.deltaTime;
-
-        DanteController.Move(velocity * Time.deltaTime);
     }
 }
