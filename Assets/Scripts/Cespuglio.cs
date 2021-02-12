@@ -13,11 +13,14 @@ public class Cespuglio : Interactable
     public GameObject DialogueText;
     public GameObject ContinueText;
     public GameObject DanteController;
+    AudioSource m_MyAudioSource;
+    bool m_Play;
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+        m_MyAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,7 +46,7 @@ public class Cespuglio : Interactable
 
 
             //Bush Sound
-
+            m_MyAudioSource.Play();
 
 
 
