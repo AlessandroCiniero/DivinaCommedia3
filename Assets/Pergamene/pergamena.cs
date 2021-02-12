@@ -8,9 +8,11 @@ public class pergamena : MonoBehaviour
 {
 
     public GameObject _pergamena;
+    AudioSource _suono;
 
     public void Start() {
 
+        _suono = GetComponent<AudioSource>();
         
     }
 
@@ -18,6 +20,7 @@ public class pergamena : MonoBehaviour
     {
         if (Input.GetKeyDown("e")) {
             Debug.Log("toggle pergamena");
+            _suono.Play();
             TogglePergamena();
         }
 

@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class AudioSingolo : MonoBehaviour
 {
-    // Start is called before the first frame update
+    AudioSource _audio;
+    bool _souna;
+
     void Start()
     {
-        
+        _audio = GetComponent<AudioSource>();
+        _souna = false;
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         
