@@ -61,7 +61,7 @@ public class Nesso : Interactable
         if (VirgilioViolenti.state == 3)
         {
             //Set State 3-->4
-            VirgilioViolenti.state++;
+            //VirgilioViolenti.state++;
 
             //Lock Interaction
             InteractionManager.active = false;
@@ -78,11 +78,36 @@ public class Nesso : Interactable
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
 
+           
 
             //Left Click to Continue
 
             StartCoroutine(WaitForLeftClick());
 
+
+        }
+        if (VirgilioViolenti.state == 5) //parlo con Nesso per la ultima volta (facoltativo)
+        {
+            
+            //Lock Interaction
+            InteractionManager.active = false;
+
+            //Lock rotation and movement
+            MouseLook.active = false;
+            PlayerMovement.active = false;
+            //this.transform.LookAt(new Vector3(DanteController.transform.position.x, this.transform.position.y, DanteController.transform.position.y));
+
+
+            DialogueName.GetComponent<Text>().text = "NESSO";
+
+            DialogueText.GetComponent<Text>().text = "Attraversate il ponte più avanti. Vi condurrà al secondo girone di questo cerchio.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+
+
+            //Left Click to Continue
+
+            StartCoroutine(WaitForLeftClick());
 
         }
 
@@ -108,6 +133,10 @@ public class Nesso : Interactable
                     //bisogna cominciare il movimento e aspettare se Dante è troppo lontano
                     //alla fine bisogna aggiornare lo stato a 3
                     //VirgilioViolenti.state = 3;
+                }
+                if (VirgilioViolenti.state == 3)
+                {
+                    VirgilioViolenti.state++;
                 }
 
                 yield break;
