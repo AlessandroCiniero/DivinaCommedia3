@@ -45,7 +45,7 @@ public class VirgilioViolenti : Interactable
 
         //this.transform.LookAt(new Vector3(DanteController.transform.position.x, this.transform.position.y, DanteController.transform.position.y));
 
-        if (state == 0)
+        if (state == 0) //bisogna parlare con chirone
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
@@ -53,8 +53,19 @@ public class VirgilioViolenti : Interactable
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
+        
+        if (state == 1) //parlato con chirone, bisogna parlare con nesso
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
-        if (state == 3)
+            DialogueText.GetComponent<Text>().text = "Parla con Nesso.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
+        //state 2
+
+        if (state == 2) //parlato con nesso, bisogna seguirlo
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
@@ -63,6 +74,18 @@ public class VirgilioViolenti : Interactable
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
 
+        //state 3
+
+        if (state == 3) //nesso si è fermato
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Parla nuovamente con Nesso.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
+        //state 4 fine livello
 
         //Left Click to Continue
 
@@ -84,7 +107,7 @@ public class VirgilioViolenti : Interactable
         PlayerMovement.active = true;
 
         //Reset animation and movement
-        this.GetComponent<Animator>().Play("Walking");
+        //this.GetComponent<Animator>().Play("Standard Walk");
         this.GetComponent<NavMeshAgent>().enabled = true;
         this.GetComponent<Movimento>().enabled = true;
 
@@ -106,7 +129,7 @@ public class VirgilioViolenti : Interactable
                 PlayerMovement.active = true;
 
                 //Reset animation and movement
-                this.GetComponent<Animator>().Play("Walking");
+                //this.GetComponent<Animator>().Play("Standard Walk");
                 this.GetComponent<NavMeshAgent>().enabled = true;
                 this.GetComponent<Movimento>().enabled = true;
 
