@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 347636080}
   - component: {fileID: 347636079}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: tornado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
