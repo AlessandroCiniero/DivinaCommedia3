@@ -13,19 +13,27 @@ public class Chirone : Interactable
     public GameObject DialogueText;
     public GameObject ContinueText;
     public GameObject DanteController;
-
+    AudioSource _feedback;
+    private bool firstTime;
 
     // Start is called before the first frame update
     void Start()
     {
-
-
+        _feedback = GetComponent<AudioSource>();
+        firstTime = true;
     }
 
     // Update is called once per frame
     void Update()
     {
         distance = InteractionManager.distance;
+        if (VirgilioViolenti.state == 4) {
+            if (firstTime)
+            {
+                _feedback.Play();
+                firstTime = false;
+            }
+        }
     }
 
 
@@ -52,7 +60,7 @@ public class Chirone : Interactable
 
             DialogueName.GetComponent<Text>().text = "CHIRONE";
 
-            DialogueText.GetComponent<Text>().text = "A quale pena venite voi che scendete la china? Ditecelo da lì, altrimenti scaglio una freccia.";
+            DialogueText.GetComponent<Text>().text = "A quale pena venite voi che scendete la china? Ditecelo, altrimenti scaglio una freccia.";
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
 
@@ -77,7 +85,7 @@ public class Chirone : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
-                DialogueText.GetComponent<Text>().text = "Vi siete accorti che quello dietro (Dante) muove quello che tocca? I piedi dei morti, di solito, non fanno così.";
+                DialogueText.GetComponent<Text>().text = "Compagni, vi siete accorti che quello dietro (Dante) muove ciò che tocca? I piedi dei morti, di solito, non fanno così.";
                 StartCoroutine(Dialogue2());
                 yield break;
             }
@@ -120,7 +128,7 @@ public class Chirone : Interactable
                 InteractionManager.active = true;
                 MouseLook.active = true;
                 PlayerMovement.active = true;
-
+                _feedback.Play();
                 yield break;
             }
 
