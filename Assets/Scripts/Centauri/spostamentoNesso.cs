@@ -8,11 +8,17 @@ public class spostamentoNesso : MonoBehaviour
     public Animator _animator; 
     private int stato;
     private bool firstTime;
+    private bool firstTime2;
+
+    AudioSource _zoccoli;
 
     void Start()
     {
         _animator = GetComponent<Animator>();
         firstTime = true;
+        firstTime2 = true;
+
+        _zoccoli = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -28,6 +34,14 @@ public class spostamentoNesso : MonoBehaviour
         //movimento di Nesso durante stato 2 
         if (stato == 2)
         {
+
+            if (firstTime2)
+            {
+                _zoccoli.Play();
+
+                firstTime2 = false;
+            }
+
             transform.Translate(0, 0, Time.deltaTime * 25f);
             //cambio a stato 3
             if (transform.position.z < 1130)
@@ -43,6 +57,8 @@ public class spostamentoNesso : MonoBehaviour
             if (firstTime)
             {
                 transform.DORotate(new Vector3(0, -180, 0), 1);
+                _zoccoli.Play();
+
                 firstTime = false;
             }
 
@@ -50,6 +66,13 @@ public class spostamentoNesso : MonoBehaviour
             //cambio a stato 5
             if (transform.position.z < 500)
                 VirgilioViolenti.state = 5;
+        }
+
+        //zoccoli
+        if (stato != 2 && stato != 4)
+        {
+            _zoccoli.Stop();
+
         }
     }
 }

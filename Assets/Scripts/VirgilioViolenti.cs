@@ -80,12 +80,29 @@ public class VirgilioViolenti : Interactable
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
-            DialogueText.GetComponent<Text>().text = "Parla nuovamente con Nesso.";
+            DialogueText.GetComponent<Text>().text = "Parla nuovamente con Nesso. Sembra voglia mostrarti qualcosa.";
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
 
-        //state 4 fine livello
+        if (state == 4) //nesso riparte
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Non esitare, Dante. Segui il centauro.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
+        if (state == 5) //nesso si riferma
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Coraggio, ci attende il secondo girone del cerchio dei violenti. Attraversa il ponte.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
 
         //Left Click to Continue
 
