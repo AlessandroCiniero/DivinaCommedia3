@@ -14,16 +14,24 @@ public class VirgilioIracondi : Interactable
     public GameObject ContinueText;
     public GameObject DanteController;
 
+
+    private float y;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         distance = InteractionManager.distance;
+
+       
+       // transform.position = new Vector3(transform.position.x, 0.173907f, transform.position.z);
+
+
     }
 
 
@@ -40,7 +48,7 @@ public class VirgilioIracondi : Interactable
 
         this.GetComponent<Animator>().Play("Idle");
         this.GetComponent<NavMeshAgent>().enabled = false;
-        this.GetComponent<Movimento>().enabled = false;
+        //this.GetComponent<Movimento>().enabled = false;
 
 
         //this.transform.LookAt(new Vector3(DanteController.transform.position.x, this.transform.position.y, DanteController.transform.position.y));
@@ -129,7 +137,7 @@ public class VirgilioIracondi : Interactable
                 //Reset animation and movement
                 //this.GetComponent<Animator>().Play("Standard Walk");
                 this.GetComponent<NavMeshAgent>().enabled = true;
-                this.GetComponent<Movimento>().enabled = true;
+                //this.GetComponent<Movimento>().enabled = true;
 
                 yield break;
             }
