@@ -14,10 +14,15 @@ public class FarinataDegliUberti : Interactable
     public GameObject ContinueText;
     public GameObject DanteController;
 
+    AudioSource _risata;
+    AudioSource _feedback;
+    public AudioSource[] ass;
 
     // Start is called before the first frame update
     void Start()
     {
+        ass = GetComponents<AudioSource>();
+        
 
     }
 
@@ -34,6 +39,7 @@ public class FarinataDegliUberti : Interactable
         {
             //Set State 0-->2/1-->3
             VirgilioEretici.state += 2;
+            ass[0].Play();
 
             //Lock Interaction
             InteractionManager.active = false;
@@ -142,6 +148,9 @@ public class FarinataDegliUberti : Interactable
                 InteractionManager.active = true;
                 MouseLook.active = true;
                 PlayerMovement.active = true;
+
+                //feedback +
+                ass[1].Play();
 
                 yield break;
             }

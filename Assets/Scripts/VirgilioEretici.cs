@@ -66,7 +66,7 @@ public class VirgilioEretici : Interactable
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
-            DialogueText.GetComponent<Text>().text = "Oziare è un peccato mortale, Dante. Imbocchiamo il passaggio per il cerchio successivo. Molto dolore ci attende ancora lungo il nostro pellegrinaggio.";
+            DialogueText.GetComponent<Text>().text = "Oziare è un peccato mortale, Dante. Imbocchiamo il passaggio per il cerchio successivo. Molto dolore ci attende ancora, lungo il nostro pellegrinaggio.";
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }

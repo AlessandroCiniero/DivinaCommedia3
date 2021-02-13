@@ -13,11 +13,13 @@ public class Anastasio : Interactable
     public GameObject DialogueText;
     public GameObject ContinueText;
     public GameObject DanteController;
+    AudioSource _feedback;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        _feedback = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -34,6 +36,8 @@ public class Anastasio : Interactable
             //Set State 0-->1/2-->3
             VirgilioEretici.state++;
 
+           
+
             //Lock Interaction
             InteractionManager.active = false;
 
@@ -47,7 +51,7 @@ public class Anastasio : Interactable
 
 
 
-            DialogueName.GetComponent<Text>().text = "ISCRIZIONE SULLA LAPIDE";
+            DialogueName.GetComponent<Text>().text = "ISCRIZIONE";
 
             DialogueText.GetComponent<Text>().text = "Custodisco papa Anastasio, che fu sviato dalla retta strada da Fotino.";
 
@@ -82,6 +86,9 @@ public class Anastasio : Interactable
                 InteractionManager.active = true;
                 MouseLook.active = true;
                 PlayerMovement.active = true;
+
+                //feedback
+                _feedback.Play();
 
                 yield break;
             }
