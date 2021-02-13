@@ -13,6 +13,8 @@ public class VirgilioIracondi : Interactable
     public GameObject DialogueText;
     public GameObject ContinueText;
     public GameObject DanteController;
+    AudioSource _feedback;
+    
 
 
     private float y;
@@ -20,7 +22,7 @@ public class VirgilioIracondi : Interactable
     // Start is called before the first frame update
     void Start()
     {
-        
+        _feedback = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -126,6 +128,8 @@ public class VirgilioIracondi : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
+                
+
                 DialogueName.GetComponent<Text>().text = "";
                 DialogueText.GetComponent<Text>().text = "";
                 ContinueText.GetComponent<Text>().text = "";
@@ -134,12 +138,23 @@ public class VirgilioIracondi : Interactable
                 MouseLook.active = true;
                 PlayerMovement.active = true;
 
+                //se lo stato è 3 Virgilio ha appena parlato dicendo una frase che serve per la pergamena, quindi si sente il suono e si cambia stato.
+                 if (state == 3)
+                {
+                    state++;
+                    _feedback.Play();
+                }
+
+
                 //Reset animation and movement
                 //this.GetComponent<Animator>().Play("Standard Walk");
                 this.GetComponent<NavMeshAgent>().enabled = true;
                 //this.GetComponent<Movimento>().enabled = true;
 
                 yield break;
+
+
+                
             }
 
             yield return null;

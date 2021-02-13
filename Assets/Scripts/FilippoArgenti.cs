@@ -14,11 +14,13 @@ public class FilippoArgenti : Interactable
     public GameObject ContinueText;
     public GameObject DanteController;
 
+    AudioSource _feedback;
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+        _feedback = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -146,7 +148,13 @@ public class FilippoArgenti : Interactable
                 PlayerMovement.active = true;
 
                 //Set State 2-->3 
-                VirgilioIracondi.state = 3;
+
+                if (VirgilioIracondi.state == 2)
+                { 
+                    VirgilioIracondi.state = 3;
+                    _feedback.Play();
+                
+                }
                 //far ripartire la barca
                 //nello script della barca appena si ferma far passare o stato a 4
 

@@ -28,5 +28,6 @@ public class immaginiPergamenaViolenti : MonoBehaviour
             _image.sprite = parziale1;
         else if (state == 4 || state == 5)
             _image.sprite = pieno;
+       
     }
 }
