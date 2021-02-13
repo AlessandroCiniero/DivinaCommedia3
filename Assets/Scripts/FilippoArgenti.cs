@@ -44,7 +44,7 @@ public class FilippoArgenti : Interactable
 
             DialogueName.GetComponent<Text>().text = "FILIPPO ARGENTI";
 
-            DialogueText.GetComponent<Text>().text = "Tu chi sei, che giungi all'Inferno prima del tempo??";
+            DialogueText.GetComponent<Text>().text = "Tu chi sei, che giungi all'Inferno prima del tempo?";
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
 
@@ -145,8 +145,8 @@ public class FilippoArgenti : Interactable
                 MouseLook.active = true;
                 PlayerMovement.active = true;
 
-                //Set State 2-->3
-                VirgilioIracondi.state++;
+                //Set State 2-->3 
+                VirgilioIracondi.state = 3;
                 //far ripartire la barca
                 //nello script della barca appena si ferma far passare o stato a 4
 

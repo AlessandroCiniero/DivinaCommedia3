@@ -79,7 +79,7 @@ public class VirgilioIracondi : Interactable
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
-            DialogueText.GetComponent<Text>().text = "Parla con l'anima di Filippo Argenti.";
+            DialogueText.GetComponent<Text>().text = "Qualcuno si è avvicinato alla barca. Lo conosci?";
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
