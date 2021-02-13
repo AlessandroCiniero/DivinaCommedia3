@@ -8,19 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/startMenu.unity
     guid: 7f19d067724407443a82ff8e196308c3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Iracondi_scena.unity
     guid: 7ab183e2ad036fa4c974ad2d2a273fc3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Cutscene#1.unity
     guid: aa1dd323d5a259642941eea809c1fdce
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Eretici_scena.unity
     guid: 8cb65a5a236d22e44abfd364830474fd
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Violenti_scena.unity
     guid: 3ec82c49d36ce3d4c97b6d63f98bf817
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Suicidi_scena.unity
     guid: 5f6fcd9c1f9d87f43a29d02398f452f8
   m_configObjects: {}

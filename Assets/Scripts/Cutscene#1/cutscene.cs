@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class cutscene : MonoBehaviour
 {
@@ -32,7 +34,15 @@ public class cutscene : MonoBehaviour
     void Update()
     {
         asd += Time.deltaTime;
-        Debug.Log(asd);
+        //Debug.Log(asd);
+
+
+        //cambio scena
+        if (asd > 40)
+        {
+            SceneManager.LoadScene("Eretici_scena");
+        }
+
 
         //CANCELLO
         if (asd > 36)
