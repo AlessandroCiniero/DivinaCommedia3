@@ -40,7 +40,7 @@ public class Flegias : Interactable
 
             //fai partire barca
 
-            //quando la barca è arrivata state++
+            //quando la barca è arrivata da filippo argenti state++
 
 
         }

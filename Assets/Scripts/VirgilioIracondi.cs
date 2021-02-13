@@ -54,19 +54,31 @@ public class VirgilioIracondi : Interactable
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
 
-        //state 1 interagito con flegias parte la barca e si ferma quando si trova filippo argenti
+        //state 1 
 
-        if (state == 1) //parlato con chirone, bisogna parlare con nesso
+        if (state == 1) //interagito con flegias parte la barca e si ferma quando si trova filippo argenti
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
-            DialogueText.GetComponent<Text>().text = "Ormai, figliuolo, si avvicina la città chiamata Dite, coi suoi afflitti abitanti, col grande stuolo di diavoli.";
+            DialogueText.GetComponent<Text>().text = "Questa barca ci porterà sull'altra sponda dello stige.";
 
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
 
         //state 2
+
         if (state == 2) //barca ferma bisogna parlare con filippo argenti
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Parla con l'anima di Filippo Argenti.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
+        //state 3
+
+        if (state == 3) //parlato con filippo argenti le anima si affollano su di lui e la barca riparte
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
 
@@ -76,8 +88,17 @@ public class VirgilioIracondi : Interactable
         }
 
 
+        //state 4
 
-  
+        if (state == 4) //la barca si è fermata e dante di trova sulla spiaggia
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Ecco la città di Dite!";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
 
 
         //Left Click to Continue
@@ -89,22 +110,6 @@ public class VirgilioIracondi : Interactable
         //StartCoroutine(ResetChat());
     }
 
-    IEnumerator ResetChat()
-    {
-        yield return new WaitForSeconds(5f);
-        DialogueName.GetComponent<Text>().text = "";
-        DialogueText.GetComponent<Text>().text = "";
-
-        InteractionManager.active = true;
-        MouseLook.active = true;
-        PlayerMovement.active = true;
-
-        //Reset animation and movement
-        //this.GetComponent<Animator>().Play("Standard Walk");
-        this.GetComponent<NavMeshAgent>().enabled = true;
-        this.GetComponent<Movimento>().enabled = true;
-
-    }
 
     IEnumerator WaitForLeftClick()
     {
