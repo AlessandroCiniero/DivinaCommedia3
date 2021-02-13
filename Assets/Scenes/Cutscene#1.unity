@@ -1027,6 +1027,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2021043529}
     m_Modifications:
+    - target: {fileID: 803886381285013581, guid: 09da3a3df9bac564f93bb48b022ee63a,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4011521262596758600, guid: 09da3a3df9bac564f93bb48b022ee63a,
         type: 3}
       propertyPath: m_Name
@@ -1417,6 +1422,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 167171096525995692, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 536692952401321820, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 632439205720711553, guid: ca6ecac4e4de4114aa8caed72a986070,
         type: 3}
       propertyPath: m_Name
@@ -1477,10 +1492,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2029352175297194965, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3566075002232518514, guid: ca6ecac4e4de4114aa8caed72a986070,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -4.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310349523834804675, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5356739967265440612, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859419494636301907, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7832538896293095349, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090616998990944786, guid: ca6ecac4e4de4114aa8caed72a986070,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca6ecac4e4de4114aa8caed72a986070, type: 3}
@@ -1503,6 +1548,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2021043529}
     m_Modifications:
+    - target: {fileID: 803886381285013581, guid: 09da3a3df9bac564f93bb48b022ee63a,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4011521262596758600, guid: 09da3a3df9bac564f93bb48b022ee63a,
         type: 3}
       propertyPath: m_Name
@@ -2711,6 +2761,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4260208466912092067, guid: bdb8f91564e00d54e9b505cf2f6e1665,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdb8f91564e00d54e9b505cf2f6e1665, type: 3}
 --- !u!1 &1125269042
@@ -2753,8 +2808,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "E quel segnor che l\xEC m\u2019avea menato,\r\nmi disse: \"Non temer;
     ch\xE9 \u2019l nostro passo\r\nnon ci pu\xF2 t\xF2rre alcun: da tal n\u2019\xE8
-    dato.\r\n\r\n\n\n\n\n\n\n\n\n\n\"O cacciati del ciel, gente dispetta\",\r\ncominci\xF2
-    elli in su l\u2019orribil soglia,\r\n\"ond\u2019esta oltracotanza in voi s\u2019alletta?"
+    dato.\r\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"O cacciati del
+    ciel, gente dispetta\",\r\ncominci\xF2 elli in su l\u2019orribil soglia,\r\n\"ond\u2019esta
+    oltracotanza in voi s\u2019alletta?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2889,7 +2945,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 599.81, y: -9}
+  m_AnchoredPosition: {x: 599.81, y: -12.88}
   m_SizeDelta: {x: 126.53041, y: 70.155655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1181944866
@@ -3061,6 +3117,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2021043529}
     m_Modifications:
+    - target: {fileID: 803886381285013581, guid: 09da3a3df9bac564f93bb48b022ee63a,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4011521262596758600, guid: 09da3a3df9bac564f93bb48b022ee63a,
         type: 3}
       propertyPath: m_Name
