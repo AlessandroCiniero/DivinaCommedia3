@@ -14,15 +14,14 @@ public class VirgilioIracondi : Interactable
     public GameObject ContinueText;
     public GameObject DanteController;
     AudioSource _feedback;
-    
 
 
-    private float y;
 
     // Start is called before the first frame update
     void Start()
     {
         _feedback = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -30,6 +29,9 @@ public class VirgilioIracondi : Interactable
     {
         distance = InteractionManager.distance;
 
+
+        transform.position = new Vector3(transform.position.x, 1.734f, transform.position.z);
+        Debug.Log(transform.position.y);
        
        // transform.position = new Vector3(transform.position.x, 0.173907f, transform.position.z);
 

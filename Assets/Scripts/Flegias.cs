@@ -13,12 +13,12 @@ public class Flegias : Interactable
     public GameObject DialogueText;
     public GameObject ContinueText;
     public GameObject DanteController;
-
+    AudioSource _suono;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        _suono = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,6 +30,7 @@ public class Flegias : Interactable
 
     public override void Interact(GameObject caller)
     {
+        _suono.Play();
 
         if (VirgilioIracondi.state == 0)
         {

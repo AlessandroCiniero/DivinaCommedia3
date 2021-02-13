@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
+using DG.Tweening;
 
 
 public class FilippoArgenti : Interactable
@@ -14,13 +15,19 @@ public class FilippoArgenti : Interactable
     public GameObject ContinueText;
     public GameObject DanteController;
 
-    AudioSource _feedback;
+    public AudioSource[] ass;
+
+
+    void vattene() {
+       transform.DORotate(new Vector3(0, 180, 0), 2);
+       transform.DOMoveZ(825, 15).SetEase(Ease.Linear);
+    }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        _feedback = GetComponent<AudioSource>();
+        ass = GetComponents<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,6 +49,7 @@ public class FilippoArgenti : Interactable
             MouseLook.active = false;
             PlayerMovement.active = false;
 
+            ass[1].Play();
 
 
             DialogueName.GetComponent<Text>().text = "FILIPPO ARGENTI";
@@ -152,7 +160,8 @@ public class FilippoArgenti : Interactable
                 if (VirgilioIracondi.state == 2)
                 { 
                     VirgilioIracondi.state = 3;
-                    _feedback.Play();
+                    ass[0].Play();
+                    vattene();
                 
                 }
                 //far ripartire la barca
