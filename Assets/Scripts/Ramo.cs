@@ -13,8 +13,10 @@ public class Ramo : Interactable
     public GameObject DialogueText;
     public GameObject ContinueText;
     public GameObject DanteController;
-    AudioSource m_MyAudioSource;
     private Rigidbody _rb;
+
+    public AudioSource[] ass;
+
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,7 @@ public class Ramo : Interactable
         _rb = GetComponent<Rigidbody>();
         _rb.isKinematic = true; // Activated
 
-        m_MyAudioSource = GetComponent<AudioSource>();
+        ass = GetComponents<AudioSource>();
 
     }
 
@@ -51,7 +53,7 @@ public class Ramo : Interactable
             _rb.isKinematic = false;  // Deactivated
 
             //Snap Sound
-            m_MyAudioSource.Play();
+            ass[0].Play();
 
 
 
@@ -153,6 +155,8 @@ public class Ramo : Interactable
                 InteractionManager.active = true;
                 MouseLook.active = true;
                 PlayerMovement.active = true;
+
+                ass[1].Play();
 
                 yield break;
             }
