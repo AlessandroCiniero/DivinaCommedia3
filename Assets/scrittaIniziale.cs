@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class scrittaIniziale : MonoBehaviour
 {
+    public Animator animator;
+
     void Start()
     {
         StartCoroutine(ExampleCoroutine());
@@ -14,7 +16,7 @@ public class scrittaIniziale : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
 
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(12);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
