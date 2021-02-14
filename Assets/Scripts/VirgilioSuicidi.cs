@@ -43,7 +43,7 @@ public class VirgilioSuicidi : Interactable
         this.GetComponent<Movimento>().enabled = false;
 
 
-        this.transform.LookAt(new Vector3(DanteController.transform.position.x, this.transform.position.y, DanteController.transform.position.y));
+        //this.transform.LookAt(new Vector3(DanteController.transform.position.x, this.transform.position.y, DanteController.transform.position.y));
         if (state == 0)
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
