@@ -8,7 +8,7 @@ using UnityEngine.AI;
 public class VirgilioIracondi : Interactable
 {
     private float distance;
-    public static int state = 0;
+    public static int state = -1;
     public GameObject DialogueName;
     public GameObject DialogueText;
     public GameObject ContinueText;

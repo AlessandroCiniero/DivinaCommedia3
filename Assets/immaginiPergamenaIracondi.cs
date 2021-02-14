@@ -22,7 +22,7 @@ public class immaginiPergamenaIracondi : MonoBehaviour
     void Update()
     {
         state = VirgilioIracondi.state;
-        if (state == 0 || state == 1 || state == 2)
+        if (state == -1 || state == 0 || state == 1 || state == 2)
             _image.sprite = vuoto;
         else if (state == 3)
             _image.sprite = parziale1;
