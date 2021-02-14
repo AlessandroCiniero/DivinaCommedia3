@@ -53,6 +53,15 @@ public class VirgilioSuicidi : Interactable
             ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
         }
 
+        if (state == 1 || state == 2)
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Continua a cercare, Dante. Leggi i versi presenti sulla tua pergamena.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
+
         if (state == 3)
         {
             DialogueName.GetComponent<Text>().text = "VIRGILIO";
