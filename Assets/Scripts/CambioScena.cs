@@ -23,6 +23,10 @@ public class CambioScena : MonoBehaviour
         {
             SceneManager.LoadScene("Suicidi_scena");
         }
+        if (SceneManager.GetActiveScene().name == "Violenti_scena" && VirgilioViolenti.state == 5 && transform.position.x > 840)
+        {
+            SceneManager.LoadScene("Suicidi_scena");
+        }
         if (SceneManager.GetActiveScene().name == "Suicidi_scena" && VirgilioSuicidi.state == 3 && transform.position.z < 70 && transform.position.x > 610 && transform.position.x < 700)
         {
             SceneManager.LoadScene("startMenu");
