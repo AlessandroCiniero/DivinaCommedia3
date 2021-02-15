@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.4245283, g: 0.17021182, b: 0.17021182, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.002
+  m_FogDensity: 0.003
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -57026,9 +57026,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b8073ca4226960e43bf7bffd444031e7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.13
+  m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -69014,7 +69014,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.54245293, b: 0.5424528, a: 1}
   m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
@@ -69071,13 +69071,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611079918}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.2670444, y: -0.24873129, z: 0.07155432, w: 0.92827797}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 32.099003, y: -30.000002, z: 0}
 --- !u!1001 &1611435578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82847,13 +82847,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989667407}
-  m_LocalRotation: {x: -0.50376505, y: 0.6774784, z: -0.5359034, w: -0.00717228}
+  m_LocalRotation: {x: -0.58021945, y: 0.6705152, z: -0.45201454, w: 0.09714808}
   m_LocalPosition: {x: -5.31, y: 3, z: -3.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 47.168003, y: 128.748, z: -96.923004}
+  m_LocalEulerAnglesHint: {x: 29.566002, y: 131.16301, z: -95.406006}
 --- !u!4 &1995055895 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8335111367753795882, guid: f0617dd888b9d7e46b55b50465d317fa,

@@ -2981,8 +2981,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "E quel segnor che l\xEC m\u2019avea menato,\r\nmi disse: \"Non temer;
     ch\xE9 \u2019l nostro passo\r\nnon ci pu\xF2 t\xF2rre alcun: da tal n\u2019\xE8
-    dato.\r\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"O cacciati del
-    ciel, gente dispetta\",\r\ncominci\xF2 elli in su l\u2019orribil soglia,\r\n\"ond\u2019esta
+    dato.\r\n\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"O cacciati del ciel, gente
+    dispetta\",\r\ncominci\xF2 elli in su l\u2019orribil soglia,\r\n\"ond\u2019esta
     oltracotanza in voi s\u2019alletta?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3118,7 +3118,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 599.81, y: -12.88}
+  m_AnchoredPosition: {x: 599.81, y: -11.21}
   m_SizeDelta: {x: 126.53041, y: 70.155655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1181944866
@@ -3206,13 +3206,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181944866}
-  m_LocalRotation: {x: -0.72298735, y: -0.04471317, z: -0.53040653, w: -0.44040778}
+  m_LocalRotation: {x: -0.7906756, y: -0.13983542, z: -0.51359165, w: -0.30249286}
   m_LocalPosition: {x: 3.62, y: 0.76, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 36.113003, y: 93.507, z: -221.174}
+  m_LocalEulerAnglesHint: {x: 19.555, y: 107.88801, z: -214.361}
 --- !u!4 &1197503734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4386534594308065010, guid: 09da3a3df9bac564f93bb48b022ee63a,
@@ -3457,13 +3457,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501468391}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.22645724, y: -0.25160548, z: 0.060679026, w: 0.9390047}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 27.118002, y: -30.000002, z: 0}
 --- !u!1 &1522483972 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4533864277926701217, guid: 91d0afefc9120234c936a9867c450843,

@@ -91,7 +91,7 @@ public class FarinataDegliUberti : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
-                DialogueText.GetComponent<Text>().text = "Essi furono aspri nemici miei, dei miei avi e della mia parte politica(Ghibellini), al punto che per due volte li cacciai da Firenze.";
+                DialogueText.GetComponent<Text>().text = "Essi furono aspri nemici miei, dei miei avi e della mia parte politica (Ghibellini), al punto che per due volte li cacciai da Firenze.";
                 StartCoroutine(Dialogue3());
                 yield break;
             }
