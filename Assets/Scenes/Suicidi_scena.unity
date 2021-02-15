@@ -14987,6 +14987,7 @@ GameObject:
   - component: {fileID: 2009218443}
   - component: {fileID: 2009218442}
   - component: {fileID: 2009218446}
+  - component: {fileID: 2009218447}
   m_Layer: 0
   m_Name: Dante
   m_TagString: Untagged
@@ -15087,6 +15088,18 @@ MonoBehaviour:
   debugRay: 1
   interactionDistance: 40
   target: {fileID: 921437687}
+--- !u!114 &2009218447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009218441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fddcec1c9bf9e334790ec86a240d3390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2048260572
 GameObject:
   m_ObjectHideFlags: 0

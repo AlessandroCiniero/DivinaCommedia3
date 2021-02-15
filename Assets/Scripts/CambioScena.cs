@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class CambioScena : MonoBehaviour
 {
@@ -13,7 +15,18 @@ public class CambioScena : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (SceneManager.GetActiveScene().name == "Eretici_scena" && VirgilioEretici.state == 3 && transform.position.x > 1130)
+        {
+            SceneManager.LoadScene("Violenti_scena");
+        }
+        if (SceneManager.GetActiveScene().name == "Violenti_scena" && VirgilioViolenti.state == 4 && transform.position.x > 840)
+        {
+            SceneManager.LoadScene("Suicidi_scena");
+        }
+        if (SceneManager.GetActiveScene().name == "Suicidi_scena" && VirgilioSuicidi.state == 3 && transform.position.z < 70 && transform.position.x > 610 && transform.position.x < 700)
+        {
+            SceneManager.LoadScene("startMenu");
+        }
     }
 
     private void OnTriggerEnter(Collider other)

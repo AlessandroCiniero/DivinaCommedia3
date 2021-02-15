@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -16817,7 +16817,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442891774}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -73898,6 +73898,7 @@ GameObject:
   - component: {fileID: 1731730193}
   - component: {fileID: 1731730195}
   - component: {fileID: 1731730196}
+  - component: {fileID: 1731730197}
   m_Layer: 0
   m_Name: Dante
   m_TagString: Untagged
@@ -73976,6 +73977,18 @@ MonoBehaviour:
   debugRay: 1
   interactionDistance: 50
   target: {fileID: 580496253}
+--- !u!114 &1731730197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731730192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fddcec1c9bf9e334790ec86a240d3390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1735606660
 PrefabInstance:
   m_ObjectHideFlags: 0
