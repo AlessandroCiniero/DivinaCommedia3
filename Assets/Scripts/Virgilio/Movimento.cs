@@ -85,7 +85,7 @@ public class Movimento : MonoBehaviour
 
         if (newGuardState != _currentGuardState)
         {
-            Debug.Log($"Changing State FROM:{_currentGuardState} --> TO:{newGuardState}");
+            //Debug.Log($"Changing State FROM:{_currentGuardState} --> TO:{newGuardState}");
             _currentGuardState = newGuardState;
         }
     }

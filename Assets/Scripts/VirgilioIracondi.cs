@@ -56,6 +56,14 @@ public class VirgilioIracondi : Interactable
 
 
         //this.transform.LookAt(new Vector3(DanteController.transform.position.x, this.transform.position.y, DanteController.transform.position.y));
+        if (state == -1) //bisogna interagire con  Flegias
+        {
+            DialogueName.GetComponent<Text>().text = "VIRGILIO";
+
+            DialogueText.GetComponent<Text>().text = "Sali sulla barca, Dante. Interagisci sulla poppa con il click.";
+
+            ContinueText.GetComponent<Text>().text = "Clicca per continuare.";
+        }
 
         if (state == 0) //bisogna interagire con  Flegias
         {
