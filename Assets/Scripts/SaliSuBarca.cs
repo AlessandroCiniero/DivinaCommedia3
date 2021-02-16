@@ -26,7 +26,7 @@ public class SaliSuBarca : MonoBehaviour
 
 
         //CAMBIO SCENA
-        if (boat.transform.position.x < 330 && VirgilioIracondi.state == 4)
+        if (boat.transform.position.x < 330 && VirgilioIracondi.state == 4 && MouseLook.active == true)
         {
             SceneManager.LoadScene("Cutscene#1");
         }
