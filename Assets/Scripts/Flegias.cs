@@ -46,4 +46,9 @@ public class Flegias : Interactable
 
         }
     }
+
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

@@ -124,4 +124,9 @@ public class VirgilioSuicidi : Interactable
             yield return null;
         }
     }
+
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

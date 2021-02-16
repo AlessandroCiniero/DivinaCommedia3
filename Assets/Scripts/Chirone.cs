@@ -136,5 +136,8 @@ public class Chirone : Interactable
         }
     }
 
-
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

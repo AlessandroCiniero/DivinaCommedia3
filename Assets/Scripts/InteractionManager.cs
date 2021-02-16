@@ -14,6 +14,7 @@ public class InteractionManager : MonoBehaviour
     private CharacterController DanteController;
     private Vector3 rayOrigin;
     public static float distance;
+    private bool type;
 
 
     void Start()
@@ -55,6 +56,8 @@ public class InteractionManager : MonoBehaviour
 
             //Check if is interactable
             pointingInteractable = hit.transform.GetComponent<Interactable>();
+
+
             if (pointingInteractable != null)
             {
                 if (Input.GetMouseButtonDown(0))
@@ -73,7 +76,18 @@ public class InteractionManager : MonoBehaviour
     private void UpdateUITarget()
     {
         if (pointingInteractable != null)
-            target.color = Color.red;
+        {
+
+            if(pointingInteractable.ObtainType() == true)
+            {
+                 target.color = Color.red;
+            } else
+            {
+                target.color = Color.blue;
+            }
+        }
+
+
         else
             target.color = Color.white;
     }

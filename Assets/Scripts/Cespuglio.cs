@@ -97,5 +97,8 @@ public class Cespuglio : Interactable
         }
     }
 
-
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

@@ -156,4 +156,9 @@ public class VirgilioViolenti : Interactable
             yield return null;
         }
     }
+
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

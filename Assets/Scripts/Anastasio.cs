@@ -97,5 +97,8 @@ public class Anastasio : Interactable
         }
     }
 
-
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

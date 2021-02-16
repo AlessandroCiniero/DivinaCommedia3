@@ -146,5 +146,8 @@ public class Nesso : Interactable
         }
     }
 
-
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

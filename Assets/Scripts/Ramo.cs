@@ -165,5 +165,9 @@ public class Ramo : Interactable
         }
     }
 
+    public override bool ObtainType()
+    {
+        return true;
+    }
 
 }

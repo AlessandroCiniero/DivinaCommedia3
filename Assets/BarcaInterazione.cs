@@ -42,4 +42,9 @@ public class BarcaInterazione : Interactable
 
         }
     }
+
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

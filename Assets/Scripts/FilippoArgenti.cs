@@ -175,5 +175,8 @@ public class FilippoArgenti : Interactable
         }
     }
 
-
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }

@@ -159,5 +159,8 @@ public class FarinataDegliUberti : Interactable
         }
     }
 
-
+    public override bool ObtainType()
+    {
+        return true;
+    }
 }
