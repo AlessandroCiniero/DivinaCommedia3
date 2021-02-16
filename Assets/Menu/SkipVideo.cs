@@ -16,7 +16,7 @@ public class SkipVideo : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
 
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(75);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
