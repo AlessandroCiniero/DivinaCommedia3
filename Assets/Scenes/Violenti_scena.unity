@@ -1362,6 +1362,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -3418,6 +3428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73089690}
   - component: {fileID: 73089689}
+  - component: {fileID: 73089691}
   m_Layer: 8
   m_Name: muroInvisibile1
   m_TagString: Untagged
@@ -3452,6 +3463,21 @@ Transform:
   m_Father: {fileID: 1717999234}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &73089691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73089688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &73372182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4209,6 +4235,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -4755,6 +4791,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &93164731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93164728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &96385990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8604,6 +8655,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &197987000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197986997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &198213068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9874,6 +9940,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -11356,6 +11432,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &284013340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284013337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &284013341 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
@@ -16011,6 +16102,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -16935,6 +17036,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &433021776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433021773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &433213834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18119,6 +18235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 456124456}
   - component: {fileID: 456124457}
+  - component: {fileID: 456124458}
   m_Layer: 8
   m_Name: muroInvisibile1 (1)
   m_TagString: Untagged
@@ -18153,6 +18270,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
   m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
+--- !u!114 &456124458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456124455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &459349582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24870,6 +25002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 521666472}
   - component: {fileID: 521666473}
+  - component: {fileID: 521666474}
   m_Layer: 8
   m_Name: muroInvisibile1 (3)
   m_TagString: Untagged
@@ -24904,6 +25037,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
   m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
+--- !u!114 &521666474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521666471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &521764848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8335111367753795882, guid: f0617dd888b9d7e46b55b50465d317fa,
@@ -25491,6 +25639,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &535111142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535111138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &536860564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28473,6 +28636,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -37718,6 +37891,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -37823,6 +38006,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &831847393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831847390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &832287035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8335111367753795882, guid: f0617dd888b9d7e46b55b50465d317fa,
@@ -51692,6 +51890,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92fad09048cccd4eb83dbd49b65c4b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1154134461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154134458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &1154134462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
@@ -51960,6 +52173,7 @@ RectTransform:
   - {fileID: 2052042137}
   - {fileID: 2110613504}
   - {fileID: 1327289832}
+  - {fileID: 1349670091}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53598,6 +53812,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1200132299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200132296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &1200358728 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7098762645056390055, guid: 90f8fe942132895488e97b6cc7adefdd,
@@ -57071,6 +57300,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1296705268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296705265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &1297638601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7098762645056390055, guid: 90f8fe942132895488e97b6cc7adefdd,
@@ -59056,6 +59300,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0617dd888b9d7e46b55b50465d317fa, type: 3}
+--- !u!1 &1349670090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349670091}
+  - component: {fileID: 1349670093}
+  - component: {fileID: 1349670092}
+  m_Layer: 5
+  m_Name: NPCInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1349670091
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349670090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1166018769}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -4.2201e-10, y: 68.05908}
+  m_SizeDelta: {x: 520.07495, y: 86.05885}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1349670092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349670090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7075472, g: 0.26366144, b: 0.45927495, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1349670093
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349670090}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1349718858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61476,6 +61798,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -62364,6 +62696,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -71526,6 +71868,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -71631,6 +71983,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1628293380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628293377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &1631161426 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7098762645056390055, guid: 90f8fe942132895488e97b6cc7adefdd,
@@ -75426,6 +75793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1717999234}
+  - component: {fileID: 1717999235}
   m_Layer: 0
   m_Name: MURIINVISIBILI
   m_TagString: Untagged
@@ -75453,6 +75821,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1717999235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717999233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 0}
+  ContinueText: {fileID: 0}
+  DanteController: {fileID: 0}
 --- !u!4 &1718833931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4239204682669090655, guid: 9c92c8034e6b3a14b9a7d0c16f802de9,
@@ -77046,6 +77429,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -77151,6 +77544,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1767931305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767931302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &1768147073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77527,6 +77935,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -80761,6 +81179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876412053}
   - component: {fileID: 1876412054}
+  - component: {fileID: 1876412055}
   m_Layer: 8
   m_Name: muroInvisibile1 (2)
   m_TagString: Untagged
@@ -80795,6 +81214,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06487305, y: 2.7607388, z: 1}
   m_Center: {x: 0.3682202, y: -0.88036937, z: 0}
+--- !u!114 &1876412055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876412052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &1876744490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7098762645056390055, guid: 90f8fe942132895488e97b6cc7adefdd,
@@ -83767,6 +84201,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1963674216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963674212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &1965217789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85157,6 +85606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004571051}
   - component: {fileID: 2004571052}
+  - component: {fileID: 2004571053}
   m_Layer: 8
   m_Name: muroInvisibile1 (4)
   m_TagString: Untagged
@@ -85191,6 +85641,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06487305, y: 2.760739, z: 0.9749766}
   m_Center: {x: 0.3682202, y: -0.88036937, z: 0.012513024}
+--- !u!114 &2004571053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004571050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1 &2006619413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5803758697785575884, guid: b4d0d08f4caf5ba4e8c8c9bfe0a24cd9,
@@ -85343,6 +85808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2020914949}
   - component: {fileID: 2020914950}
+  - component: {fileID: 2020914951}
   m_Layer: 8
   m_Name: muroInvisibile1 (5)
   m_TagString: Untagged
@@ -85377,6 +85843,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06487305, y: 2.760739, z: 1.2857878}
   m_Center: {x: 0.3682202, y: -0.88036937, z: 0.14289507}
+--- !u!114 &2020914951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020914948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!1001 &2020922819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86628,7 +87109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.2627451, b: 0.45882353, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -87641,6 +88122,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
@@ -87746,6 +88237,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2077659640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077659637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582fe08559c5244468fb602180e5d9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1349670090}
+  ContinueText: {fileID: 1327289831}
+  DanteController: {fileID: 1731730192}
 --- !u!4 &2077692120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4239204682669090655, guid: 9c92c8034e6b3a14b9a7d0c16f802de9,
@@ -89851,6 +90357,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1178707946}
     m_Modifications:
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6725792366154233182, guid: d8cf7ded0e7d11949958409a284cbcd9,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3793791222505992766, guid: d8cf7ded0e7d11949958409a284cbcd9,
         type: 3}
       propertyPath: m_RootOrder
