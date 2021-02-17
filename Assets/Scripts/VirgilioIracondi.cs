@@ -31,7 +31,7 @@ public class VirgilioIracondi : Interactable
 
 
         transform.position = new Vector3(transform.position.x, 1.734f, transform.position.z);
-        Debug.Log(transform.position.y);
+
        
        // transform.position = new Vector3(transform.position.x, 0.173907f, transform.position.z);
 
