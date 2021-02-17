@@ -2377,6 +2377,40 @@ MonoBehaviour:
   InfoText: {fileID: 1624310957}
   ContinueText: {fileID: 642661703}
   DanteController: {fileID: 1492307255}
+--- !u!1 &310529717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3148052246872162831, guid: 471cec0a344141d418319e99d9534cd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 114720594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &310529718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310529717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &310529719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310529717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &314980573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 892191583581113796, guid: ca6ecac4e4de4114aa8caed72a986070,
@@ -2491,6 +2525,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &321687831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321687828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &321687832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321687828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &324091699 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
@@ -3415,6 +3477,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &470885679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470885677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &470885680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470885677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &472371423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
@@ -3732,6 +3822,40 @@ MonoBehaviour:
   InfoText: {fileID: 1624310957}
   ContinueText: {fileID: 642661703}
   DanteController: {fileID: 1492307255}
+--- !u!1 &504359491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3148052246872162831, guid: 471cec0a344141d418319e99d9534cd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2842133135599041490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &504359492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504359491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &504359493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504359491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &520993911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5497,6 +5621,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &770614666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770614664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &770614667
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770614664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &790154501
 GameObject:
   m_ObjectHideFlags: 0
@@ -9401,6 +9553,21 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 172391169}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1373360997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373360996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!82 &1373360998
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9497,6 +9664,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1373360999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373360996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1396132019
 GameObject:
   m_ObjectHideFlags: 0
@@ -14079,6 +14259,40 @@ MonoBehaviour:
   InfoText: {fileID: 1624310957}
   ContinueText: {fileID: 642661703}
   DanteController: {fileID: 1492307255}
+--- !u!1 &2042503383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3148052246872162831, guid: 471cec0a344141d418319e99d9534cd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 881805829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2042503384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042503383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e79f78a9f244240b91c6d68feaef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &2042503385
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042503383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 3.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2057554721 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
