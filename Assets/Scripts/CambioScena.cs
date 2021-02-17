@@ -15,7 +15,7 @@ public class CambioScena : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == "Eretici_scena" && VirgilioEretici.state == 3 && transform.position.x > 1130)
+        if (SceneManager.GetActiveScene().name == "Eretici_scena" && VirgilioEretici.state == 3 && transform.position.x > 1130 && transform.position.z < 300)
         {
             SceneManager.LoadScene("Violenti_scena");
         }
@@ -29,7 +29,7 @@ public class CambioScena : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().name == "Suicidi_scena" && VirgilioSuicidi.state == 3 && transform.position.z < 70 && transform.position.x > 610 && transform.position.x < 700)
         {
-            SceneManager.LoadScene("startMenu");
+            SceneManager.LoadScene("schermataFinale");
         }
     }
 

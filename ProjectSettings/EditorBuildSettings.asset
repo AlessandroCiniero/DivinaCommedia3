@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Suicidi_scena.unity
     guid: 5f6fcd9c1f9d87f43a29d02398f452f8
+  - enabled: 1
+    path: Assets/Scenes/schermataFinale.unity
+    guid: e34dad890b6a61446afc611751eb1792
   m_configObjects: {}
