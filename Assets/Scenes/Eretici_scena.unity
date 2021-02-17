@@ -121,6 +121,48 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 5c7d937c14e9fec46b97dce13a728328, type: 2}
+--- !u!1 &60133751 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 829604807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &60133756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60133751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &66006987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1450113140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &66006992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66006987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &70669028
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,6 +303,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &90910075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 714861896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &90910080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90910075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &94082216 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 761496101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &94082221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94082216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &96999394
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,6 +357,7 @@ GameObject:
   - component: {fileID: 96999398}
   - component: {fileID: 96999397}
   - component: {fileID: 96999396}
+  - component: {fileID: 96999399}
   m_Layer: 0
   m_Name: pCube3 (3)
   m_TagString: Untagged
@@ -354,6 +439,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96999394}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &96999399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96999394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &103727161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -446,6 +546,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.126
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -550,6 +665,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.121
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1029,6 +1159,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.121
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1181,6 +1326,7 @@ GameObject:
   - component: {fileID: 162863401}
   - component: {fileID: 162863400}
   - component: {fileID: 162863399}
+  - component: {fileID: 162863402}
   m_Layer: 0
   m_Name: pCube3 (2)
   m_TagString: Untagged
@@ -1262,12 +1408,48 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162863397}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &162863402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162863397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &168502485 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
     type: 3}
   m_PrefabInstance: {fileID: 1835839478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &169144336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1681958108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &169144341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169144336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &172391169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1349,6 +1531,7 @@ GameObject:
   - component: {fileID: 181793572}
   - component: {fileID: 181793571}
   - component: {fileID: 181793570}
+  - component: {fileID: 181793573}
   m_Layer: 0
   m_Name: polySurface4 (6)
   m_TagString: Untagged
@@ -1430,6 +1613,42 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 181793568}
   m_Mesh: {fileID: 2381890483179193753, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &181793573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181793568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &185250716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 103727161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &185250721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185250716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &194966115 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
@@ -1492,6 +1711,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1335330983}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &225258623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1371178706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &225258628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225258623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &225263679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,6 +1744,7 @@ GameObject:
   - component: {fileID: 225263683}
   - component: {fileID: 225263682}
   - component: {fileID: 225263681}
+  - component: {fileID: 225263684}
   m_Layer: 0
   m_Name: polySurface4 (2)
   m_TagString: Untagged
@@ -1585,6 +1826,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 225263679}
   m_Mesh: {fileID: 2381890483179193753, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &225263684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225263679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &239929523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1730,6 +1986,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 860785181}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &246990253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 129940384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &246990258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246990253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &247478560
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,6 +2019,7 @@ GameObject:
   - component: {fileID: 247478564}
   - component: {fileID: 247478563}
   - component: {fileID: 247478562}
+  - component: {fileID: 247478565}
   m_Layer: 0
   m_Name: pCube3 (2)
   m_TagString: Untagged
@@ -1823,6 +2101,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247478560}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &247478565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247478560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &247990983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +2128,7 @@ GameObject:
   - component: {fileID: 247990987}
   - component: {fileID: 247990986}
   - component: {fileID: 247990985}
+  - component: {fileID: 247990988}
   m_Layer: 0
   m_Name: pCube3 (3)
   m_TagString: Untagged
@@ -1916,6 +2210,42 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247990983}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &247990988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247990983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &252746253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 761496101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &252746258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252746253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &270643769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
@@ -2026,6 +2356,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ac8766d3ad4414aaf6ccf5c2640814, type: 3}
+--- !u!1 &279455711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1681958108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &279455716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279455711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &314980573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 892191583581113796, guid: ca6ecac4e4de4114aa8caed72a986070,
@@ -2140,6 +2491,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &324091699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 726246422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &324091704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324091699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &349146867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
@@ -2273,6 +2645,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &379311822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1964022344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &379311827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379311822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &414334288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2581,6 +2974,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.32
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2690,6 +3098,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.458
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1001 &460723202
@@ -2873,6 +3296,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.458
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1 &470885677 stripped
@@ -3197,6 +3635,7 @@ GameObject:
   - component: {fileID: 503065335}
   - component: {fileID: 503065334}
   - component: {fileID: 503065333}
+  - component: {fileID: 503065336}
   m_Layer: 0
   m_Name: polySurface4 (1)
   m_TagString: Untagged
@@ -3278,6 +3717,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503065331}
   m_Mesh: {fileID: 2381890483179193753, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &503065336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503065331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &520993911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,6 +3744,7 @@ GameObject:
   - component: {fileID: 520993915}
   - component: {fileID: 520993914}
   - component: {fileID: 520993913}
+  - component: {fileID: 520993916}
   m_Layer: 0
   m_Name: pCube3 (3)
   m_TagString: Untagged
@@ -3371,6 +3826,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520993911}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &520993916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520993911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &530473313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3808,6 +4278,7 @@ GameObject:
   - component: {fileID: 551176548}
   - component: {fileID: 551176547}
   - component: {fileID: 551176546}
+  - component: {fileID: 551176549}
   m_Layer: 0
   m_Name: polySurface4 (4)
   m_TagString: Untagged
@@ -3889,6 +4360,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 551176544}
   m_Mesh: {fileID: 2381890483179193753, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &551176549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551176544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &554588907
 GameObject:
   m_ObjectHideFlags: 0
@@ -3901,6 +4387,7 @@ GameObject:
   - component: {fileID: 554588911}
   - component: {fileID: 554588910}
   - component: {fileID: 554588909}
+  - component: {fileID: 554588912}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -3982,6 +4469,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554588907}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &554588912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554588907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &559036406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4096,18 +4598,102 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1d58340b48302e46938aad02289df4d, type: 3}
+--- !u!1 &559290387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 692043131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &559290392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559290387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &573168791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
     type: 3}
   m_PrefabInstance: {fileID: 129940384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &583012281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 714861896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &583012286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583012281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &587107933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 432263659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &587107938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587107933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &601842841 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
     type: 3}
   m_PrefabInstance: {fileID: 1504697660}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &605819713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1371178706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &605819718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605819713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &607043318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
@@ -4210,6 +4796,7 @@ GameObject:
   - component: {fileID: 646261540}
   - component: {fileID: 646261539}
   - component: {fileID: 646261538}
+  - component: {fileID: 646261541}
   m_Layer: 0
   m_Name: polySurface4 (5)
   m_TagString: Untagged
@@ -4291,6 +4878,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646261536}
   m_Mesh: {fileID: 2381890483179193753, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &646261541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646261536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &692043131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4383,6 +4985,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.493
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4487,6 +5104,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.493
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4593,6 +5225,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4731,6 +5378,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1 &770614664 stripped
@@ -4847,6 +5509,7 @@ GameObject:
   - component: {fileID: 790154505}
   - component: {fileID: 790154504}
   - component: {fileID: 790154503}
+  - component: {fileID: 790154506}
   m_Layer: 0
   m_Name: pCube3 (3)
   m_TagString: Untagged
@@ -4928,6 +5591,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790154501}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &790154506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790154501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &801128163
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,6 +5672,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &807337037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 103727161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &807337042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807337037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &807691244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5086,6 +5785,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.126
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5444,6 +6158,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.247
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5554,8 +6283,44 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.49
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
+--- !u!1 &829736361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1741666661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &829736366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829736361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &842628598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
@@ -5793,8 +6558,44 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.49
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
+--- !u!1 &870673902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1964022344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &870673907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870673902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &876420122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5934,6 +6735,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ac8766d3ad4414aaf6ccf5c2640814, type: 3}
+--- !u!1 &880438929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 466026121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &880438934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880438929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &881805829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6009,6 +6831,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 559036406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &903144916 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1532898268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &903144921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903144916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &920620787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
@@ -6303,6 +7146,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998511482}
   m_CullTransparentMesh: 0
+--- !u!1 &1018494214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 129940384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1018494219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018494214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1029546799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6454,6 +7318,7 @@ GameObject:
   - component: {fileID: 1066826857}
   - component: {fileID: 1066826856}
   - component: {fileID: 1066826855}
+  - component: {fileID: 1066826858}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -6535,6 +7400,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066826853}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1066826858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066826853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1068678530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6680,6 +7560,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 271632043}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1071366343 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835839478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1071366348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071366343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1098702083
 GameObject:
   m_ObjectHideFlags: 0
@@ -6815,6 +7716,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.79656, y: 4.714294, z: 2.9481552}
   m_Center: {x: -0.07994318, y: 1.8571467, z: 0.97407734}
+--- !u!1 &1113845411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1635026682257998900, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 692043131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1113845412
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113845411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50467426, y: 1, z: 1}
+  m_Center: {x: 0.24766307, y: -1.7947112e-10, z: 0.000000024502315}
 --- !u!1001 &1114606671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6894,6 +7814,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca6ecac4e4de4114aa8caed72a986070, type: 3}
+--- !u!1 &1134021366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1241955322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134021371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134021366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1155434018
 GameObject:
   m_ObjectHideFlags: 0
@@ -6906,6 +7847,7 @@ GameObject:
   - component: {fileID: 1155434022}
   - component: {fileID: 1155434021}
   - component: {fileID: 1155434020}
+  - component: {fileID: 1155434023}
   m_Layer: 0
   m_Name: pCube3 (2)
   m_TagString: Untagged
@@ -6987,6 +7929,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155434018}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1155434023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155434018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1156153856 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 726246422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1156153861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156153856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1157565831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1504697660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1157565836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157565831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &1158409367 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3065004666052904718, guid: a2ac8766d3ad4414aaf6ccf5c2640814,
@@ -7090,6 +8089,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.32
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7113,12 +8127,54 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1068678530}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1220453964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1281727331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1220453969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220453964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &1223146552 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
     type: 3}
   m_PrefabInstance: {fileID: 1241955322}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1232054931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 104707426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1232054936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232054931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1241112832
 GameObject:
   m_ObjectHideFlags: 0
@@ -7131,6 +8187,7 @@ GameObject:
   - component: {fileID: 1241112836}
   - component: {fileID: 1241112835}
   - component: {fileID: 1241112834}
+  - component: {fileID: 1241112837}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -7212,6 +8269,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241112832}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1241112837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241112832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1241955322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7294,6 +8366,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!4 &1255430040 stripped
@@ -7302,6 +8389,48 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1609918200}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1256936860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 818801464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1256936865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256936860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1264745957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1199310394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1264745962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264745957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1266490980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7441,6 +8570,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ac8766d3ad4414aaf6ccf5c2640814, type: 3}
+--- !u!1 &1269662840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 818801464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1269662845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269662840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1273510151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7652,6 +8802,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.32
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7729,6 +8894,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1314884725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 432263659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1314884730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314884725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1334289060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7895,6 +9081,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.67800003
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1 &1368403238
@@ -8167,6 +9368,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.247
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8315,6 +9531,7 @@ RectTransform:
   - {fileID: 127764754}
   - {fileID: 1842637584}
   - {fileID: 642661706}
+  - {fileID: 1624310958}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8383,6 +9600,48 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1414305138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 437263604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1414305143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414305138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1415284653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835839478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1415284658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415284653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1424862631
 GameObject:
   m_ObjectHideFlags: 0
@@ -8395,6 +9654,7 @@ GameObject:
   - component: {fileID: 1424862635}
   - component: {fileID: 1424862634}
   - component: {fileID: 1424862633}
+  - component: {fileID: 1424862636}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -8476,6 +9736,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424862631}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1424862636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424862631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1450113140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8568,6 +9843,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.126
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8879,6 +10169,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.247
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8958,6 +10263,7 @@ GameObject:
   - component: {fileID: 1525731479}
   - component: {fileID: 1525731478}
   - component: {fileID: 1525731477}
+  - component: {fileID: 1525731480}
   m_Layer: 0
   m_Name: pCube3 (2)
   m_TagString: Untagged
@@ -9039,6 +10345,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525731475}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1525731480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525731475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1532898268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9131,6 +10452,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.126
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9143,12 +10479,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
+--- !u!1 &1541669083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 807691244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1541669088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541669083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &1553539138 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
     type: 3}
   m_PrefabInstance: {fileID: 1450113140}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1572656551 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1605408640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1572656556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572656551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1574182974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 466026121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1574182979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574182974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &1583620152 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3065004666052904718, guid: a2ac8766d3ad4414aaf6ccf5c2640814,
@@ -9544,6 +10943,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.458
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1001 &1609918200
@@ -9777,6 +11191,84 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 21.005001, y: -30.000002, z: 0}
+--- !u!1 &1624310957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624310958}
+  - component: {fileID: 1624310960}
+  - component: {fileID: 1624310959}
+  m_Layer: 5
+  m_Name: NPCInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1624310958
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624310957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1396132020}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -4.2201e-10, y: 68.05908}
+  m_SizeDelta: {x: 520.07495, y: 86.05885}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1624310959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624310957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1624310960
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624310957}
+  m_CullTransparentMesh: 0
 --- !u!1 &1637033773
 GameObject:
   m_ObjectHideFlags: 0
@@ -9827,12 +11319,75 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 172391169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1668233817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 437263604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1668233822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668233817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1668759418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1741666661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1668759423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668759418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &1670551871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 892191583581113796, guid: ca6ecac4e4de4114aa8caed72a986070,
     type: 3}
   m_PrefabInstance: {fileID: 1114606671}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1672903861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1241955322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1672903866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672903861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1674656020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10064,6 +11619,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.458
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1 &1693649836
@@ -10078,6 +11648,7 @@ GameObject:
   - component: {fileID: 1693649840}
   - component: {fileID: 1693649839}
   - component: {fileID: 1693649838}
+  - component: {fileID: 1693649841}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -10159,6 +11730,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693649836}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1693649841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693649836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1696060942
 GameObject:
   m_ObjectHideFlags: 0
@@ -10171,6 +11757,7 @@ GameObject:
   - component: {fileID: 1696060946}
   - component: {fileID: 1696060945}
   - component: {fileID: 1696060944}
+  - component: {fileID: 1696060947}
   m_Layer: 0
   m_Name: polySurface4 (3)
   m_TagString: Untagged
@@ -10252,6 +11839,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696060942}
   m_Mesh: {fileID: 2381890483179193753, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1696060947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696060942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1702433001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10415,6 +12017,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703223622}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1703540948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1199310394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1703540953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703540948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &1731580715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3065004666052904718, guid: a2ac8766d3ad4414aaf6ccf5c2640814,
@@ -10505,6 +12128,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2c007980b29ffb46a7501e8e53b9734, type: 3}
+--- !u!1 &1741169750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 829604807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1741169755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741169750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1741666661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10597,6 +12241,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.49
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
 --- !u!1001 &1773769019
@@ -10865,6 +12524,55 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1779020514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779020510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d09a46a2974224f93ad3673c4220c5fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &1779020515
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779020510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3640294, y: 4.551721, z: 1.8611925}
+  m_Center: {x: 0.010410159, y: 2.169691, z: 0.43059507}
+--- !u!1 &1784850150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1504697660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1784850155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784850150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1809859199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11085,6 +12793,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1832484308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 692043131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1832484313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832484308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1835839478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11182,6 +12911,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.32
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     - target: {fileID: 7394807163776726286, guid: 1a78bca02ab150d489ad702c40b08611,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11199,6 +12943,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
+--- !u!1 &1837573390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1335330983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837573395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837573390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1842637583
 GameObject:
   m_ObjectHideFlags: 0
@@ -11632,6 +13397,7 @@ GameObject:
   - component: {fileID: 1917540849}
   - component: {fileID: 1917540848}
   - component: {fileID: 1917540847}
+  - component: {fileID: 1917540850}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -11713,6 +13479,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917540845}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1917540850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917540845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &1930001875
 GameObject:
   m_ObjectHideFlags: 0
@@ -11725,6 +13506,7 @@ GameObject:
   - component: {fileID: 1930001879}
   - component: {fileID: 1930001878}
   - component: {fileID: 1930001877}
+  - component: {fileID: 1930001880}
   m_Layer: 0
   m_Name: pCube3 (1)
   m_TagString: Untagged
@@ -11806,6 +13588,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930001875}
   m_Mesh: {fileID: 3369316746193770658, guid: 4994852691ba4b2489a0f49f9f8f8f9f, type: 3}
+--- !u!114 &1930001880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930001875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1933699541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11934,6 +13731,48 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 47.933228, y: 20.223, z: 47.685287}
   m_Center: {x: -20.826904, y: 1.9463463, z: -6.0983353}
+--- !u!1 &1947492840 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 807691244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1947492845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947492840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &1950822912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3151326966277333200, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 860785181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1950822917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950822912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1001 &1964022344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12016,8 +13855,44 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.67800003
       objectReference: {fileID: 0}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: InfoText
+      value: 
+      objectReference: {fileID: 1624310957}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 642661703}
+    - target: {fileID: 7329937937533580793, guid: 1a78bca02ab150d489ad702c40b08611,
+        type: 3}
+      propertyPath: DanteController
+      value: 
+      objectReference: {fileID: 1492307255}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a78bca02ab150d489ad702c40b08611, type: 3}
+--- !u!1 &1968057291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1335330983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1968057296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968057291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!1 &2000342587
 GameObject:
   m_ObjectHideFlags: 0
@@ -12143,18 +14018,178 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2034259196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c1d58340b48302e46938aad02289df4d,
+    type: 3}
+  m_PrefabInstance: {fileID: 559036406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2034259197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034259196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5aa0d5f1e65c46598ca9e9baa4f12fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!65 &2034259198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034259196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 25, y: 50, z: 50}
+  m_Center: {x: -1, y: 0, z: 20}
 --- !u!4 &2035197836 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160347617441504910, guid: 1a78bca02ab150d489ad702c40b08611,
     type: 3}
   m_PrefabInstance: {fileID: 466026121}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2042383068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1532898268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2042383073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042383068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &2057554721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1281727331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2057554726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057554721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &2069176008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1605408640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2069176013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069176008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &2113173426 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 104707426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2113173431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113173426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &2115381722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3065004666052904718, guid: a2ac8766d3ad4414aaf6ccf5c2640814,
     type: 3}
   m_PrefabInstance: {fileID: 847357148}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2137187074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 1450113140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2137187079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137187074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
+--- !u!1 &2144920090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 871239406275941141, guid: 1a78bca02ab150d489ad702c40b08611,
+    type: 3}
+  m_PrefabInstance: {fileID: 860785181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2144920095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144920090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f3bb7bfea2e4da0b6c32577ff80603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText: {fileID: 1624310957}
+  ContinueText: {fileID: 642661703}
+  DanteController: {fileID: 1492307255}
 --- !u!4 &543450652381061991 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2376757637285927093, guid: 471cec0a344141d418319e99d9534cd1,
