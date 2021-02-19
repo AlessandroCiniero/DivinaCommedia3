@@ -27,7 +27,13 @@ public class BarcaInterazione : Interactable
     void Update()
     {
         distance = InteractionManager.distance;
+        if (VirgilioIracondi.state > -1)
+        {
 
+            PlayerMovement.active = false;
+
+
+        }
     }
 
 
@@ -38,9 +44,11 @@ public class BarcaInterazione : Interactable
         {
             VirgilioIracondi.state++;
             Debug.Log("stato -1  --->  0");
+            PlayerMovement.active = false;
 
 
         }
+        
     }
 
     public override bool ObtainType()
