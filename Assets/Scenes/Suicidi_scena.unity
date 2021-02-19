@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2813,18 +2813,6 @@ MonoBehaviour:
   ContinueText: {fileID: 375172951}
   DanteController: {fileID: 2009218441}
   ass: []
---- !u!114 &532424980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532424978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da8268298c3b50841bd32a392714e064, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &532424981
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2865,13 +2853,13 @@ AudioSource:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.2752838
+      time: 0.5321121
       value: 0
-      inSlope: -1.002004
-      outSlope: -1.002004
+      inSlope: -0.026728783
+      outSlope: -0.026728783
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.5708301
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -2947,7 +2935,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 09396b269fefbb24586ebdf68004e997, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3041,11 +3029,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e24fd9ceae9ef4acb99abca55330f73b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3054,7 +3042,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -3071,7 +3059,7 @@ AudioSource:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1
+      time: 0.50819397
       value: 0
       inSlope: 0
       outSlope: 0
@@ -3087,7 +3075,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0

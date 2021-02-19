@@ -47,7 +47,7 @@ public class Cespuglio : Interactable
 
 
             //Bush Sound
-            ass[0].Play();
+            //ass[0].Play();
 
 
 
