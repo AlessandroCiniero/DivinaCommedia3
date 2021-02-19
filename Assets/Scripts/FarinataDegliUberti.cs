@@ -39,7 +39,7 @@ public class FarinataDegliUberti : Interactable
         {
             //Set State 0-->2/1-->3
             VirgilioEretici.state += 2;
-            ass[0].Play();
+            ass[5].Play();
 
             //Lock Interaction
             InteractionManager.active = false;
@@ -75,6 +75,10 @@ public class FarinataDegliUberti : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
+                ass[5].Stop();
+
+                ass[4].Play();
+
                 DialogueText.GetComponent<Text>().text = "Chi furono i tuoi avi?";
                 StartCoroutine(Dialogue2());
                 yield break;
@@ -91,6 +95,10 @@ public class FarinataDegliUberti : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
+                ass[4].Stop();
+
+                ass[3].Play();
+
                 DialogueText.GetComponent<Text>().text = "Essi furono aspri nemici miei, dei miei avi e della mia parte politica (Ghibellini), al punto che per due volte li cacciai da Firenze.";
                 StartCoroutine(Dialogue3());
                 yield break;
@@ -107,6 +115,10 @@ public class FarinataDegliUberti : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
+                ass[3].Stop();
+
+                ass[2].Play();
+
                 DialogueName.GetComponent<Text>().text = "DANTE";
                 DialogueText.GetComponent<Text>().text = "Se essi furono cacciati, tornarono poi da ogni parte, in entrambe le occasioni; ma i vostri avi, invece, non furono altrettanto bravi.";
                 StartCoroutine(Dialogue4());
@@ -124,6 +136,10 @@ public class FarinataDegliUberti : Interactable
         {
             if (Input.GetMouseButtonDown(0))
             {
+                ass[2].Stop();
+
+                ass[1].Play();
+
                 DialogueName.GetComponent<Text>().text = "FARINATA DEGLI UBERTI";
                 DialogueText.GetComponent<Text>().text = "Se i miei avi hanno appreso male l'arte di rientrare in Firenze, ciò mi procura più sofferenza di questa tomba. Ma non passeranno cinquanta fasi lunari (meno di quattro anni) che anche tu saprai quant'è dolorosa quell'arte";
                 StartCoroutine(WaitForLeftClick());
@@ -150,7 +166,10 @@ public class FarinataDegliUberti : Interactable
                 PlayerMovement.active = true;
 
                 //feedback +
-                ass[1].Play();
+                ass[1].Stop();
+
+                ass[0].Play();
+
 
                 yield break;
             }
