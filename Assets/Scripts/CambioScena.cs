@@ -15,7 +15,7 @@ public class CambioScena : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().name == "Eretici_scena" && VirgilioEretici.state == 3 && transform.position.x > 1130 && transform.position.z < 300)
+        if (SceneManager.GetActiveScene().name == "Eretici_scena" && VirgilioEretici.state == 3 && transform.position.x > 1110 && transform.position.z < 300)
         {
             SceneManager.LoadScene("Violenti_scena");
         }
