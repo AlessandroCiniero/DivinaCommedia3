@@ -8,6 +8,8 @@ public class InteractionManager : MonoBehaviour
     [SerializeField] private bool debugRay;
     [SerializeField] private float interactionDistance;
     [SerializeField] private Image target;
+    [SerializeField] private Image targetr;
+    [SerializeField] private Image targetb;
     public static bool active = true;
 
     private Interactable pointingInteractable;
@@ -19,6 +21,8 @@ public class InteractionManager : MonoBehaviour
 
     void Start()
     {
+        targetr.enabled = false;
+        targetb.enabled = true;
         DanteController = GetComponent<CharacterController>();
     }
 
@@ -38,7 +42,8 @@ public class InteractionManager : MonoBehaviour
 
         if (!active)
         {
-            target.color = Color.white;
+
+            //target.color = Color.white;
         }
 
     }
@@ -78,18 +83,30 @@ public class InteractionManager : MonoBehaviour
         if (pointingInteractable != null)
         {
 
-            if(pointingInteractable.ObtainType() == true)
+            if (pointingInteractable.ObtainType() == true)
             {
-                 target.color = Color.red;
-            } else
+                target.enabled = false;
+                targetr.enabled = true;
+                //GameObject.Find("PiumaW").SetActive(false);
+                //target.color = Color.red;
+            }
+            else
             {
-                target.color = Color.blue;
+                target.enabled = false;
+                targetb.enabled = true;
+                //target.color = Color.cyan;
             }
         }
 
 
         else
-            target.color = Color.white;
+        {
+            target.enabled = true;
+            targetr.enabled = false;
+            targetb.enabled = false;
+            //target.color = Color.white;
+        }
+
     }
 
 
