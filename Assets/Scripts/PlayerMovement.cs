@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         Cursor.visible = false;
+        PlayerMovement.active = true;
+
     }
 
     // Update is called once per frame
